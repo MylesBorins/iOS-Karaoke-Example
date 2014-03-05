@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F09114DF-7007-400D-8697-84422C402F28</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Karaoke-Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B343439A-1C2F-4358-A9EE-BEFD484BFE33</key>
+		<string>https://github.com/TheAlphaNerd/iOS-Karaoke-Example.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Karaoke-Example/Karaoke-Example.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B343439A-1C2F-4358-A9EE-BEFD484BFE33</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TheAlphaNerd/iOS-Karaoke-Example.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B343439A-1C2F-4358-A9EE-BEFD484BFE33</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B343439A-1C2F-4358-A9EE-BEFD484BFE33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Karaoke-Example</string>
+		</dict>
+	</array>
+</dict>
+</plist>

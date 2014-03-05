@@ -12,7 +12,7 @@
 @interface KaraokeViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *RecordButton;
 @property (weak, nonatomic) IBOutlet UIButton *PlayButton;
-
+- (void) togglePlayLabel;
 @end
 
 @implementation KaraokeViewController
@@ -42,17 +42,33 @@
     }
 }
 - (IBAction)PlayPressed:(UIButton *)sender {
+    [self togglePlayLabel];
     if(!Globals::playing)
     {
-        [self.PlayButton setTitle:@"Playing..." forState:UIControlStateNormal];
         Globals::playing = true;
         Globals::playHead = 0;
     }
     else
     {
-        [self.PlayButton setTitle:@"Play" forState:UIControlStateNormal];
         Globals::playing = false;
     }
+}
+
+-(void) togglePlayLabel
+{
+    if(!Globals::playing)
+    {
+        [self.PlayButton setTitle:@"Playing..." forState:UIControlStateNormal];
+    }
+    else
+    {
+        [self.PlayButton setTitle:@"Play" forState:UIControlStateNormal];
+    }
+}
+
+-(void) observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+    
 }
 
 @end

@@ -7,12 +7,12 @@
 //
 
 #include "Audio.h"
-#include "Globals.h"
 
 //-----------------------------------------------------------------------------
 // name: audio_callback()
 // desc: audio callback, yeah
 //-----------------------------------------------------------------------------
+
 void audio_callback( Float32 * buffer, UInt32 numFrames, void * userData )
 {
     SAMPLE realBufferSize = numFrames * 2 * sizeof(Float32);
