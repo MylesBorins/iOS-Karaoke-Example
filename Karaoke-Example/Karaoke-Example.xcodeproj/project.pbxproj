@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C473CD8218C69AA700AC4D40 /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7218C69AA700AC4D40 /* mo_audio.mm */; };
+		C473CD8318C69AA700AC4D40 /* mo_buffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7418C69AA700AC4D40 /* mo_buffer.mm */; };
+		C473CD8418C69AA700AC4D40 /* mo_fft.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7718C69AA700AC4D40 /* mo_fft.mm */; };
+		C473CD8518C69AA700AC4D40 /* mo_fun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7818C69AA700AC4D40 /* mo_fun.cpp */; };
+		C473CD8618C69AA700AC4D40 /* mo_gfx.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7B18C69AA700AC4D40 /* mo_gfx.mm */; };
+		C473CD8718C69AA700AC4D40 /* mo_glut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7C18C69AA700AC4D40 /* mo_glut.cpp */; };
+		C473CD8818C69AA700AC4D40 /* mo_thread.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7F18C69AA700AC4D40 /* mo_thread.mm */; };
+		C473CD8918C69AA700AC4D40 /* mo_touch.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD8118C69AA700AC4D40 /* mo_touch.mm */; };
+		C473CD8B18C69EB000AC4D40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */; };
+		C48007EE18C6945E0022E54F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48007ED18C6945E0022E54F /* Images.xcassets */; };
+		C4BB16EF18C665CA00753F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16EE18C665CA00753F8E /* Foundation.framework */; };
+		C4BB16F118C665CA00753F8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16F018C665CA00753F8E /* CoreGraphics.framework */; };
+		C4BB16F318C665CA00753F8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16F218C665CA00753F8E /* UIKit.framework */; };
+		C4BB16F918C665CA00753F8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4BB16F718C665CA00753F8E /* InfoPlist.strings */; };
+		C4BB16FB18C665CA00753F8E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4BB16FA18C665CA00753F8E /* main.mm */; };
+		C4BB16FF18C665CA00753F8E /* KaraokeAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4BB16FE18C665CA00753F8E /* KaraokeAppDelegate.mm */; };
+		C4BB170218C665CA00753F8E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BB170018C665CA00753F8E /* Main_iPhone.storyboard */; };
+		C4BB170518C665CA00753F8E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BB170318C665CA00753F8E /* Main_iPad.storyboard */; };
+		C4BB170818C665CA00753F8E /* KaraokeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4BB170718C665CA00753F8E /* KaraokeViewController.mm */; };
+		C4BB171118C665CA00753F8E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB171018C665CA00753F8E /* XCTest.framework */; };
+		C4BB171218C665CA00753F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16EE18C665CA00753F8E /* Foundation.framework */; };
+		C4BB171318C665CA00753F8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16F218C665CA00753F8E /* UIKit.framework */; };
+		C4BB171B18C665CA00753F8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4BB171918C665CA00753F8E /* InfoPlist.strings */; };
+		C4BB171D18C665CA00753F8E /* Karaoke_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BB171C18C665CA00753F8E /* Karaoke_ExampleTests.m */; };
+		C4BB172C18C6660300753F8E /* Globals.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4BB172A18C6660300753F8E /* Globals.mm */; };
+		C4BB174818C6669A00753F8E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB174718C6669A00753F8E /* AudioToolbox.framework */; };
+		C4BB174B18C666A100753F8E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB174918C666A100753F8E /* GLKit.framework */; };
+		C4BB174C18C666A100753F8E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB174A18C666A100753F8E /* OpenGLES.framework */; };
+		C4BB174F18C666B000753F8E /* Audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4BB174D18C666B000753F8E /* Audio.mm */; };
+		C4BB178118C6916C00753F8E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BB176F18C6916C00753F8E /* AFHTTPRequestOperation.m */; };
+		C4BB178218C6916C00753F8E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BB177118C6916C00753F8E /* AFHTTPRequestOperationManager.m */; };
+		C4BB178318C6916C00753F8E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BB177318C6916C00753F8E /* AFHTTPSessionManager.m */; };
+		C4BB178418C6916C00753F8E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BB177618C6916C00753F8E /* AFNetworkReachabilityManager.m */; };
+		C4BB178518C6916C00753F8E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BB177818C6916C00753F8E /* AFSecurityPolicy.m */; };
+		C4BB178618C6916C00753F8E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BB177A18C6916C00753F8E /* AFURLConnectionOperation.m */; };
+		C4BB178718C6916C00753F8E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BB177C18C6916C00753F8E /* AFURLRequestSerialization.m */; };
+		C4BB178818C6916C00753F8E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BB177E18C6916C00753F8E /* AFURLResponseSerialization.m */; };
+		C4BB178918C6916C00753F8E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BB178018C6916C00753F8E /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4BB171418C665CA00753F8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4BB16E318C665CA00753F8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4BB16EA18C665CA00753F8E;
+			remoteInfo = "Karaoke-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C473CD7118C69AA700AC4D40 /* mo_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_audio.h; sourceTree = "<group>"; };
+		C473CD7218C69AA700AC4D40 /* mo_audio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_audio.mm; sourceTree = "<group>"; };
+		C473CD7318C69AA700AC4D40 /* mo_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_buffer.h; sourceTree = "<group>"; };
+		C473CD7418C69AA700AC4D40 /* mo_buffer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_buffer.mm; sourceTree = "<group>"; };
+		C473CD7518C69AA700AC4D40 /* mo_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_def.h; sourceTree = "<group>"; };
+		C473CD7618C69AA700AC4D40 /* mo_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_fft.h; sourceTree = "<group>"; };
+		C473CD7718C69AA700AC4D40 /* mo_fft.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_fft.mm; sourceTree = "<group>"; };
+		C473CD7818C69AA700AC4D40 /* mo_fun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mo_fun.cpp; sourceTree = "<group>"; };
+		C473CD7918C69AA700AC4D40 /* mo_fun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_fun.h; sourceTree = "<group>"; };
+		C473CD7A18C69AA700AC4D40 /* mo_gfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_gfx.h; sourceTree = "<group>"; };
+		C473CD7B18C69AA700AC4D40 /* mo_gfx.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_gfx.mm; sourceTree = "<group>"; };
+		C473CD7C18C69AA700AC4D40 /* mo_glut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mo_glut.cpp; sourceTree = "<group>"; };
+		C473CD7D18C69AA700AC4D40 /* mo_glut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_glut.h; sourceTree = "<group>"; };
+		C473CD7E18C69AA700AC4D40 /* mo_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_thread.h; sourceTree = "<group>"; };
+		C473CD7F18C69AA700AC4D40 /* mo_thread.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_thread.mm; sourceTree = "<group>"; };
+		C473CD8018C69AA700AC4D40 /* mo_touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_touch.h; sourceTree = "<group>"; };
+		C473CD8118C69AA700AC4D40 /* mo_touch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_touch.mm; sourceTree = "<group>"; };
+		C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C48007ED18C6945E0022E54F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4BB16EB18C665CA00753F8E /* Karaoke-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karaoke-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BB16EE18C665CA00753F8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4BB16F018C665CA00753F8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4BB16F218C665CA00753F8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4BB16F618C665CA00753F8E /* Karaoke-Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Karaoke-Example-Info.plist"; sourceTree = "<group>"; };
+		C4BB16F818C665CA00753F8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4BB16FA18C665CA00753F8E /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		C4BB16FC18C665CA00753F8E /* Karaoke-Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Karaoke-Example-Prefix.pch"; sourceTree = "<group>"; };
+		C4BB16FD18C665CA00753F8E /* KaraokeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaraokeAppDelegate.h; sourceTree = "<group>"; };
+		C4BB16FE18C665CA00753F8E /* KaraokeAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KaraokeAppDelegate.mm; sourceTree = "<group>"; };
+		C4BB170118C665CA00753F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C4BB170418C665CA00753F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C4BB170618C665CA00753F8E /* KaraokeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaraokeViewController.h; sourceTree = "<group>"; };
+		C4BB170718C665CA00753F8E /* KaraokeViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KaraokeViewController.mm; sourceTree = "<group>"; };
+		C4BB170F18C665CA00753F8E /* Karaoke-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karaoke-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BB171018C665CA00753F8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C4BB171818C665CA00753F8E /* Karaoke-ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Karaoke-ExampleTests-Info.plist"; sourceTree = "<group>"; };
+		C4BB171A18C665CA00753F8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4BB171C18C665CA00753F8E /* Karaoke_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Karaoke_ExampleTests.m; sourceTree = "<group>"; };
+		C4BB172A18C6660300753F8E /* Globals.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Globals.mm; sourceTree = "<group>"; };
+		C4BB172B18C6660300753F8E /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		C4BB174718C6669A00753F8E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C4BB174918C666A100753F8E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C4BB174A18C666A100753F8E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C4BB174D18C666B000753F8E /* Audio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Audio.mm; sourceTree = "<group>"; };
+		C4BB174E18C666B000753F8E /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+		C4BB176E18C6916C00753F8E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		C4BB176F18C6916C00753F8E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		C4BB177018C6916C00753F8E /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		C4BB177118C6916C00753F8E /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		C4BB177218C6916C00753F8E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		C4BB177318C6916C00753F8E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		C4BB177418C6916C00753F8E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		C4BB177518C6916C00753F8E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C4BB177618C6916C00753F8E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		C4BB177718C6916C00753F8E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		C4BB177818C6916C00753F8E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		C4BB177918C6916C00753F8E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		C4BB177A18C6916C00753F8E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		C4BB177B18C6916C00753F8E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		C4BB177C18C6916C00753F8E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		C4BB177D18C6916C00753F8E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		C4BB177E18C6916C00753F8E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		C4BB177F18C6916C00753F8E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		C4BB178018C6916C00753F8E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4BB16E818C665CA00753F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C473CD8B18C69EB000AC4D40 /* CFNetwork.framework in Frameworks */,
+				C4BB174B18C666A100753F8E /* GLKit.framework in Frameworks */,
+				C4BB174C18C666A100753F8E /* OpenGLES.framework in Frameworks */,
+				C4BB174818C6669A00753F8E /* AudioToolbox.framework in Frameworks */,
+				C4BB16F118C665CA00753F8E /* CoreGraphics.framework in Frameworks */,
+				C4BB16F318C665CA00753F8E /* UIKit.framework in Frameworks */,
+				C4BB16EF18C665CA00753F8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BB170C18C665CA00753F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BB171118C665CA00753F8E /* XCTest.framework in Frameworks */,
+				C4BB171318C665CA00753F8E /* UIKit.framework in Frameworks */,
+				C4BB171218C665CA00753F8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C473CD7018C69AA700AC4D40 /* momu */ = {
+			isa = PBXGroup;
+			children = (
+				C473CD7118C69AA700AC4D40 /* mo_audio.h */,
+				C473CD7218C69AA700AC4D40 /* mo_audio.mm */,
+				C473CD7318C69AA700AC4D40 /* mo_buffer.h */,
+				C473CD7418C69AA700AC4D40 /* mo_buffer.mm */,
+				C473CD7518C69AA700AC4D40 /* mo_def.h */,
+				C473CD7618C69AA700AC4D40 /* mo_fft.h */,
+				C473CD7718C69AA700AC4D40 /* mo_fft.mm */,
+				C473CD7818C69AA700AC4D40 /* mo_fun.cpp */,
+				C473CD7918C69AA700AC4D40 /* mo_fun.h */,
+				C473CD7A18C69AA700AC4D40 /* mo_gfx.h */,
+				C473CD7B18C69AA700AC4D40 /* mo_gfx.mm */,
+				C473CD7C18C69AA700AC4D40 /* mo_glut.cpp */,
+				C473CD7D18C69AA700AC4D40 /* mo_glut.h */,
+				C473CD7E18C69AA700AC4D40 /* mo_thread.h */,
+				C473CD7F18C69AA700AC4D40 /* mo_thread.mm */,
+				C473CD8018C69AA700AC4D40 /* mo_touch.h */,
+				C473CD8118C69AA700AC4D40 /* mo_touch.mm */,
+			);
+			path = momu;
+			sourceTree = "<group>";
+		};
+		C4BB16E218C665CA00753F8E = {
+			isa = PBXGroup;
+			children = (
+				C4BB16F418C665CA00753F8E /* Karaoke-Example */,
+				C4BB171618C665CA00753F8E /* Karaoke-ExampleTests */,
+				C4BB16ED18C665CA00753F8E /* Frameworks */,
+				C4BB16EC18C665CA00753F8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4BB16EC18C665CA00753F8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB16EB18C665CA00753F8E /* Karaoke-Example.app */,
+				C4BB170F18C665CA00753F8E /* Karaoke-ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4BB16ED18C665CA00753F8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */,
+				C4BB174918C666A100753F8E /* GLKit.framework */,
+				C4BB174A18C666A100753F8E /* OpenGLES.framework */,
+				C4BB174718C6669A00753F8E /* AudioToolbox.framework */,
+				C4BB16EE18C665CA00753F8E /* Foundation.framework */,
+				C4BB16F018C665CA00753F8E /* CoreGraphics.framework */,
+				C4BB16F218C665CA00753F8E /* UIKit.framework */,
+				C4BB171018C665CA00753F8E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4BB16F418C665CA00753F8E /* Karaoke-Example */ = {
+			isa = PBXGroup;
+			children = (
+				C48007ED18C6945E0022E54F /* Images.xcassets */,
+				C4BB172618C665E500753F8E /* api */,
+				C4BB172718C665ED00753F8E /* core */,
+				C4BB178B18C6934700753F8E /* Delegates */,
+				C4BB178A18C6934100753F8E /* Storyboards */,
+				C4BB178C18C6935200753F8E /* Controllers */,
+				C4BB16F518C665CA00753F8E /* Supporting Files */,
+			);
+			path = "Karaoke-Example";
+			sourceTree = "<group>";
+		};
+		C4BB16F518C665CA00753F8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB16F618C665CA00753F8E /* Karaoke-Example-Info.plist */,
+				C4BB16F718C665CA00753F8E /* InfoPlist.strings */,
+				C4BB16FA18C665CA00753F8E /* main.mm */,
+				C4BB16FC18C665CA00753F8E /* Karaoke-Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4BB171618C665CA00753F8E /* Karaoke-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB171C18C665CA00753F8E /* Karaoke_ExampleTests.m */,
+				C4BB171718C665CA00753F8E /* Supporting Files */,
+			);
+			path = "Karaoke-ExampleTests";
+			sourceTree = "<group>";
+		};
+		C4BB171718C665CA00753F8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB171818C665CA00753F8E /* Karaoke-ExampleTests-Info.plist */,
+				C4BB171918C665CA00753F8E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4BB172618C665E500753F8E /* api */ = {
+			isa = PBXGroup;
+			children = (
+				C473CD7018C69AA700AC4D40 /* momu */,
+				C4BB176D18C6916C00753F8E /* AFNetworking */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		C4BB172718C665ED00753F8E /* core */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB172918C665FA00753F8E /* Audio */,
+				C4BB172818C665F500753F8E /* Globals */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		C4BB172818C665F500753F8E /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB172A18C6660300753F8E /* Globals.mm */,
+				C4BB172B18C6660300753F8E /* Globals.h */,
+			);
+			name = Globals;
+			sourceTree = "<group>";
+		};
+		C4BB172918C665FA00753F8E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB174D18C666B000753F8E /* Audio.mm */,
+				C4BB174E18C666B000753F8E /* Audio.h */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		C4BB176D18C6916C00753F8E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB176E18C6916C00753F8E /* AFHTTPRequestOperation.h */,
+				C4BB176F18C6916C00753F8E /* AFHTTPRequestOperation.m */,
+				C4BB177018C6916C00753F8E /* AFHTTPRequestOperationManager.h */,
+				C4BB177118C6916C00753F8E /* AFHTTPRequestOperationManager.m */,
+				C4BB177218C6916C00753F8E /* AFHTTPSessionManager.h */,
+				C4BB177318C6916C00753F8E /* AFHTTPSessionManager.m */,
+				C4BB177418C6916C00753F8E /* AFNetworking.h */,
+				C4BB177518C6916C00753F8E /* AFNetworkReachabilityManager.h */,
+				C4BB177618C6916C00753F8E /* AFNetworkReachabilityManager.m */,
+				C4BB177718C6916C00753F8E /* AFSecurityPolicy.h */,
+				C4BB177818C6916C00753F8E /* AFSecurityPolicy.m */,
+				C4BB177918C6916C00753F8E /* AFURLConnectionOperation.h */,
+				C4BB177A18C6916C00753F8E /* AFURLConnectionOperation.m */,
+				C4BB177B18C6916C00753F8E /* AFURLRequestSerialization.h */,
+				C4BB177C18C6916C00753F8E /* AFURLRequestSerialization.m */,
+				C4BB177D18C6916C00753F8E /* AFURLResponseSerialization.h */,
+				C4BB177E18C6916C00753F8E /* AFURLResponseSerialization.m */,
+				C4BB177F18C6916C00753F8E /* AFURLSessionManager.h */,
+				C4BB178018C6916C00753F8E /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		C4BB178A18C6934100753F8E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB170018C665CA00753F8E /* Main_iPhone.storyboard */,
+				C4BB170318C665CA00753F8E /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C4BB178B18C6934700753F8E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB16FD18C665CA00753F8E /* KaraokeAppDelegate.h */,
+				C4BB16FE18C665CA00753F8E /* KaraokeAppDelegate.mm */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		C4BB178C18C6935200753F8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB170618C665CA00753F8E /* KaraokeViewController.h */,
+				C4BB170718C665CA00753F8E /* KaraokeViewController.mm */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4BB16EA18C665CA00753F8E /* Karaoke-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BB172018C665CA00753F8E /* Build configuration list for PBXNativeTarget "Karaoke-Example" */;
+			buildPhases = (
+				C4BB16E718C665CA00753F8E /* Sources */,
+				C4BB16E818C665CA00753F8E /* Frameworks */,
+				C4BB16E918C665CA00753F8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karaoke-Example";
+			productName = "Karaoke-Example";
+			productReference = C4BB16EB18C665CA00753F8E /* Karaoke-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4BB170E18C665CA00753F8E /* Karaoke-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BB172318C665CA00753F8E /* Build configuration list for PBXNativeTarget "Karaoke-ExampleTests" */;
+			buildPhases = (
+				C4BB170B18C665CA00753F8E /* Sources */,
+				C4BB170C18C665CA00753F8E /* Frameworks */,
+				C4BB170D18C665CA00753F8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4BB171518C665CA00753F8E /* PBXTargetDependency */,
+			);
+			name = "Karaoke-ExampleTests";
+			productName = "Karaoke-ExampleTests";
+			productReference = C4BB170F18C665CA00753F8E /* Karaoke-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4BB16E318C665CA00753F8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Karaoke;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = thealphanerd;
+				TargetAttributes = {
+					C4BB16EA18C665CA00753F8E = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					C4BB170E18C665CA00753F8E = {
+						TestTargetID = C4BB16EA18C665CA00753F8E;
+					};
+				};
+			};
+			buildConfigurationList = C4BB16E618C665CA00753F8E /* Build configuration list for PBXProject "Karaoke-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4BB16E218C665CA00753F8E;
+			productRefGroup = C4BB16EC18C665CA00753F8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4BB16EA18C665CA00753F8E /* Karaoke-Example */,
+				C4BB170E18C665CA00753F8E /* Karaoke-ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4BB16E918C665CA00753F8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BB170518C665CA00753F8E /* Main_iPad.storyboard in Resources */,
+				C48007EE18C6945E0022E54F /* Images.xcassets in Resources */,
+				C4BB170218C665CA00753F8E /* Main_iPhone.storyboard in Resources */,
+				C4BB16F918C665CA00753F8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BB170D18C665CA00753F8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BB171B18C665CA00753F8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4BB16E718C665CA00753F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BB178618C6916C00753F8E /* AFURLConnectionOperation.m in Sources */,
+				C4BB178118C6916C00753F8E /* AFHTTPRequestOperation.m in Sources */,
+				C4BB178418C6916C00753F8E /* AFNetworkReachabilityManager.m in Sources */,
+				C473CD8618C69AA700AC4D40 /* mo_gfx.mm in Sources */,
+				C473CD8218C69AA700AC4D40 /* mo_audio.mm in Sources */,
+				C4BB178918C6916C00753F8E /* AFURLSessionManager.m in Sources */,
+				C4BB178718C6916C00753F8E /* AFURLRequestSerialization.m in Sources */,
+				C473CD8918C69AA700AC4D40 /* mo_touch.mm in Sources */,
+				C473CD8718C69AA700AC4D40 /* mo_glut.cpp in Sources */,
+				C4BB172C18C6660300753F8E /* Globals.mm in Sources */,
+				C473CD8518C69AA700AC4D40 /* mo_fun.cpp in Sources */,
+				C4BB178818C6916C00753F8E /* AFURLResponseSerialization.m in Sources */,
+				C4BB170818C665CA00753F8E /* KaraokeViewController.mm in Sources */,
+				C473CD8318C69AA700AC4D40 /* mo_buffer.mm in Sources */,
+				C4BB16FB18C665CA00753F8E /* main.mm in Sources */,
+				C473CD8418C69AA700AC4D40 /* mo_fft.mm in Sources */,
+				C473CD8818C69AA700AC4D40 /* mo_thread.mm in Sources */,
+				C4BB178218C6916C00753F8E /* AFHTTPRequestOperationManager.m in Sources */,
+				C4BB178518C6916C00753F8E /* AFSecurityPolicy.m in Sources */,
+				C4BB174F18C666B000753F8E /* Audio.mm in Sources */,
+				C4BB16FF18C665CA00753F8E /* KaraokeAppDelegate.mm in Sources */,
+				C4BB178318C6916C00753F8E /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BB170B18C665CA00753F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BB171D18C665CA00753F8E /* Karaoke_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4BB171518C665CA00753F8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4BB16EA18C665CA00753F8E /* Karaoke-Example */;
+			targetProxy = C4BB171418C665CA00753F8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4BB16F718C665CA00753F8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BB16F818C665CA00753F8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4BB170018C665CA00753F8E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BB170118C665CA00753F8E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C4BB170318C665CA00753F8E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BB170418C665CA00753F8E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C4BB171918C665CA00753F8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BB171A18C665CA00753F8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4BB171E18C665CA00753F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4BB171F18C665CA00753F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4BB172118C665CA00753F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karaoke-Example/Karaoke-Example-Prefix.pch";
+				INFOPLIST_FILE = "Karaoke-Example/Karaoke-Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4BB172218C665CA00753F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karaoke-Example/Karaoke-Example-Prefix.pch";
+				INFOPLIST_FILE = "Karaoke-Example/Karaoke-Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C4BB172418C665CA00753F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Karaoke-Example.app/Karaoke-Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karaoke-Example/Karaoke-Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Karaoke-ExampleTests/Karaoke-ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C4BB172518C665CA00753F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Karaoke-Example.app/Karaoke-Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karaoke-Example/Karaoke-Example-Prefix.pch";
+				INFOPLIST_FILE = "Karaoke-ExampleTests/Karaoke-ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4BB16E618C665CA00753F8E /* Build configuration list for PBXProject "Karaoke-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BB171E18C665CA00753F8E /* Debug */,
+				C4BB171F18C665CA00753F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BB172018C665CA00753F8E /* Build configuration list for PBXNativeTarget "Karaoke-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BB172118C665CA00753F8E /* Debug */,
+				C4BB172218C665CA00753F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BB172318C665CA00753F8E /* Build configuration list for PBXNativeTarget "Karaoke-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BB172418C665CA00753F8E /* Debug */,
+				C4BB172518C665CA00753F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4BB16E318C665CA00753F8E /* Project object */;
+}
