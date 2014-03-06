@@ -12,7 +12,7 @@ var server = http.createServer(function (req, res) {
       res.end();
     });
   }
-  else if (req.method === 'GET' && req.url === '/my/feed') {
+  else if (req.method === 'GET' && req.url === '/feed') {
     consumer.getFiles()
     .then(function (files) {
       res.writeHead(200, {'Content-Type': 'application/json'});
