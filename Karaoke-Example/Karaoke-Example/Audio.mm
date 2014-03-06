@@ -20,9 +20,13 @@ void audio_callback( Float32 * buffer, UInt32 numFrames, void * userData )
         memcpy(Globals::recordingBuffer + Globals::recordingLength, buffer, realBufferSize);
         Globals::recordingLength += realBufferSize;
     }
-    else
+    else if (Globals::recording == true)
     {
-        Globals::recording = false;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [[NSNotificationCenter defaultCenter]
+             postNotificationName:@"ToggleRecord"
+             object:NULL];
+        });
     }
     
     // zero!!!

@@ -25,6 +25,11 @@
                                              selector:@selector(togglePlay:)
                                                  name:@"TogglePlay"
                                                object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(toggleRecord:)
+                                                 name:@"ToggleRecord"
+                                               object:nil];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -36,21 +41,38 @@
 - (IBAction)RecordPressed:(UIButton *)sender {
     if(!Globals::recording)
     {
-        [self.RecordButton setTitle:@"Recording..." forState:UIControlStateNormal];
-        Globals::recording = true;
         Globals::recordingLength = 0;
     }
-    else
-    {
-        [self.RecordButton setTitle:@"Record" forState:UIControlStateNormal];
-        Globals::recording = false;
-    }
+
+    [self toggleRecordLabel];
 }
 - (IBAction)PlayPressed:(UIButton *)sender {
-    [self togglePlayLabel];
     if(!Globals::playing)
     {
         Globals::playHead = 0;
+    }
+    [self togglePlayLabel];
+}
+
+- (void) toggleRecord:(NSNotification *) notification
+{
+    if ([[notification name] isEqualToString:@"ToggleRecord"])
+    {
+        [self toggleRecordLabel];
+    }
+}
+
+- (void) toggleRecordLabel
+{
+    if(!Globals::recording)
+    {
+        Globals::recording = true;
+        [self.RecordButton setTitle:@"Recording..." forState:UIControlStateNormal];
+    }
+    else
+    {
+        Globals::recording = false;
+        [self.RecordButton setTitle:@"Record" forState:UIControlStateNormal];
     }
 }
 
