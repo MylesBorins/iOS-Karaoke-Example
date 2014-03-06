@@ -7,7 +7,7 @@ var _ = require('lodash');
 var q = require('q');
 // level for db
 var level = require('level');
-var db = level('./mydb', {valueEncoding : 'json'});
+var db = level('./.mydb', {valueEncoding : 'json'});
 // multiparty for multipar forms
 var multiparty = require('multiparty');
 
