@@ -32,9 +32,15 @@ void audio_callback( Float32 * buffer, UInt32 numFrames, void * userData )
         memcpy(buffer, Globals::recordingBuffer + Globals::playHead, realBufferSize);
         Globals::playHead += realBufferSize;
     }
-    else
+    else if (Globals::playing == true)
     {
-        Globals::playing = false;
+        Globals::playHead = 0;
+        // Use dispatch_async to send message from main queue
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [[NSNotificationCenter defaultCenter]
+             postNotificationName:@"TogglePlay"
+             object:NULL];
+        });
     }
 }
 

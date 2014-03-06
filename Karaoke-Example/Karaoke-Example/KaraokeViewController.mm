@@ -20,6 +20,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(togglePlay:)
+                                                 name:@"TogglePlay"
+                                               object:nil];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -45,23 +50,26 @@
     [self togglePlayLabel];
     if(!Globals::playing)
     {
-        Globals::playing = true;
         Globals::playHead = 0;
     }
-    else
-    {
-        Globals::playing = false;
-    }
+}
+
+-(void) togglePlay:(NSNotification *) notification
+{
+    if ([[notification name] isEqualToString:@"TogglePlay"])
+        [self togglePlayLabel];
 }
 
 -(void) togglePlayLabel
 {
     if(!Globals::playing)
     {
+        Globals::playing = true;
         [self.PlayButton setTitle:@"Playing..." forState:UIControlStateNormal];
     }
     else
     {
+        Globals::playing = false;
         [self.PlayButton setTitle:@"Play" forState:UIControlStateNormal];
     }
 }
