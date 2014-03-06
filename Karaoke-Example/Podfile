@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "Karaoke-Example" do
+    pod 'RestKit'
+end
+
+target "Karaoke-ExampleTests" do
+
+end
+
