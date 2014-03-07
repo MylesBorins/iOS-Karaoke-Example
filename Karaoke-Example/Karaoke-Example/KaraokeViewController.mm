@@ -8,10 +8,14 @@
 
 #import "KaraokeViewController.h"
 #import "Globals.h"
+#import "FileUploader.h"
 
 @interface KaraokeViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *RecordButton;
 @property (weak, nonatomic) IBOutlet UIButton *PlayButton;
+@property (weak, nonatomic) IBOutlet UIButton *UploadButton;
+@property (weak, nonatomic) FileUploader *uploader;
+
 - (void) togglePlayLabel;
 @end
 
@@ -20,6 +24,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    _uploader = [FileUploader sharedUploader];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(togglePlay:)
@@ -38,6 +44,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (IBAction)RecordPressed:(UIButton *)sender {
     if(!Globals::recording)
     {
@@ -46,12 +53,17 @@
 
     [self toggleRecordLabel];
 }
+
 - (IBAction)PlayPressed:(UIButton *)sender {
     if(!Globals::playing)
     {
         Globals::playHead = 0;
     }
     [self togglePlayLabel];
+}
+
+- (IBAction)UploadPressed:(UIButton *)sender {
+    [_uploader uploadData:nullptr];
 }
 
 - (void) toggleRecord:(NSNotification *) notification
