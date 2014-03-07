@@ -1,1708 +1,698 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>046CDFFBD7A748E584802259</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Karaoke-Example.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>1FB2862E67464C3A83E12659</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-Karaoke-Example-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>2ECE8FF5D1C746A1A3B2BD68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>046CDFFBD7A748E584802259</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7BDE79B260FC4F7A80C86B50</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Karaoke-Example.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-Karaoke-Example.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7018C69AA700AC4D40</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C473CD7118C69AA700AC4D40</string>
-				<string>C473CD7218C69AA700AC4D40</string>
-				<string>C473CD7318C69AA700AC4D40</string>
-				<string>C473CD7418C69AA700AC4D40</string>
-				<string>C473CD7518C69AA700AC4D40</string>
-				<string>C473CD7618C69AA700AC4D40</string>
-				<string>C473CD7718C69AA700AC4D40</string>
-				<string>C473CD7818C69AA700AC4D40</string>
-				<string>C473CD7918C69AA700AC4D40</string>
-				<string>C473CD7A18C69AA700AC4D40</string>
-				<string>C473CD7B18C69AA700AC4D40</string>
-				<string>C473CD7C18C69AA700AC4D40</string>
-				<string>C473CD7D18C69AA700AC4D40</string>
-				<string>C473CD7E18C69AA700AC4D40</string>
-				<string>C473CD7F18C69AA700AC4D40</string>
-				<string>C473CD8018C69AA700AC4D40</string>
-				<string>C473CD8118C69AA700AC4D40</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>momu</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7118C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>mo_audio.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7218C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>mo_audio.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7318C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>mo_buffer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7418C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>mo_buffer.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7518C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>mo_def.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7618C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>mo_fft.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7718C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>mo_fft.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7818C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.cpp</string>
-			<key>path</key>
-			<string>mo_fun.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7918C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>mo_fun.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7A18C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>mo_gfx.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7B18C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>mo_gfx.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7C18C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.cpp</string>
-			<key>path</key>
-			<string>mo_glut.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7D18C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>mo_glut.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7E18C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>mo_thread.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD7F18C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>mo_thread.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD8018C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>mo_touch.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD8118C69AA700AC4D40</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>mo_touch.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C473CD8218C69AA700AC4D40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C473CD7218C69AA700AC4D40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C473CD8318C69AA700AC4D40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C473CD7418C69AA700AC4D40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C473CD8418C69AA700AC4D40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C473CD7718C69AA700AC4D40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C473CD8518C69AA700AC4D40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C473CD7818C69AA700AC4D40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C473CD8618C69AA700AC4D40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C473CD7B18C69AA700AC4D40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C473CD8718C69AA700AC4D40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C473CD7C18C69AA700AC4D40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C473CD8818C69AA700AC4D40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C473CD7F18C69AA700AC4D40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C473CD8918C69AA700AC4D40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C473CD8118C69AA700AC4D40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C473CD8A18C69EB000AC4D40</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CFNetwork.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CFNetwork.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>C473CD8B18C69EB000AC4D40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C473CD8A18C69EB000AC4D40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C48007ED18C6945E0022E54F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C48007EE18C6945E0022E54F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C48007ED18C6945E0022E54F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB16E218C665CA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB16F418C665CA00753F8E</string>
-				<string>C4BB171618C665CA00753F8E</string>
-				<string>C4BB16ED18C665CA00753F8E</string>
-				<string>C4BB16EC18C665CA00753F8E</string>
-				<string>7BDE79B260FC4F7A80C86B50</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16E318C665CA00753F8E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>Karaoke</string>
-				<key>LastUpgradeCheck</key>
-				<string>0500</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>thealphanerd</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>C4BB16EA18C665CA00753F8E</key>
-					<dict>
-						<key>SystemCapabilities</key>
-						<dict>
-							<key>com.apple.BackgroundModes</key>
-							<dict>
-								<key>enabled</key>
-								<string>1</string>
-							</dict>
-						</dict>
-					</dict>
-					<key>C4BB170E18C665CA00753F8E</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>C4BB16EA18C665CA00753F8E</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>C4BB16E618C665CA00753F8E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>C4BB16E218C665CA00753F8E</string>
-			<key>productRefGroup</key>
-			<string>C4BB16EC18C665CA00753F8E</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>C4BB16EA18C665CA00753F8E</string>
-				<string>C4BB170E18C665CA00753F8E</string>
-			</array>
-		</dict>
-		<key>C4BB16E618C665CA00753F8E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C4BB171E18C665CA00753F8E</string>
-				<string>C4BB171F18C665CA00753F8E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C4BB16E718C665CA00753F8E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C473CD8618C69AA700AC4D40</string>
-				<string>C473CD8218C69AA700AC4D40</string>
-				<string>C473CD8918C69AA700AC4D40</string>
-				<string>C473CD8718C69AA700AC4D40</string>
-				<string>C4BB172C18C6660300753F8E</string>
-				<string>C473CD8518C69AA700AC4D40</string>
-				<string>C4BB170818C665CA00753F8E</string>
-				<string>C473CD8318C69AA700AC4D40</string>
-				<string>C4BB16FB18C665CA00753F8E</string>
-				<string>C473CD8418C69AA700AC4D40</string>
-				<string>C473CD8818C69AA700AC4D40</string>
-				<string>C4BB174F18C666B000753F8E</string>
-				<string>C4BB16FF18C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C4BB16E818C665CA00753F8E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C473CD8B18C69EB000AC4D40</string>
-				<string>C4BB174B18C666A100753F8E</string>
-				<string>C4BB174C18C666A100753F8E</string>
-				<string>C4BB174818C6669A00753F8E</string>
-				<string>C4BB16F118C665CA00753F8E</string>
-				<string>C4BB16F318C665CA00753F8E</string>
-				<string>C4BB16EF18C665CA00753F8E</string>
-				<string>2ECE8FF5D1C746A1A3B2BD68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C4BB16E918C665CA00753F8E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C4BB170518C665CA00753F8E</string>
-				<string>C48007EE18C6945E0022E54F</string>
-				<string>C4BB170218C665CA00753F8E</string>
-				<string>C4BB16F918C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C4BB16EA18C665CA00753F8E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C4BB172018C665CA00753F8E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EC4E0D2B18B1426D85B052B8</string>
-				<string>C4BB16E718C665CA00753F8E</string>
-				<string>C4BB16E818C665CA00753F8E</string>
-				<string>C4BB16E918C665CA00753F8E</string>
-				<string>1FB2862E67464C3A83E12659</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Karaoke-Example</string>
-			<key>productName</key>
-			<string>Karaoke-Example</string>
-			<key>productReference</key>
-			<string>C4BB16EB18C665CA00753F8E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>C4BB16EB18C665CA00753F8E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Karaoke-Example.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C4BB16EC18C665CA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB16EB18C665CA00753F8E</string>
-				<string>C4BB170F18C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16ED18C665CA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C473CD8A18C69EB000AC4D40</string>
-				<string>C4BB174918C666A100753F8E</string>
-				<string>C4BB174A18C666A100753F8E</string>
-				<string>C4BB174718C6669A00753F8E</string>
-				<string>C4BB16EE18C665CA00753F8E</string>
-				<string>C4BB16F018C665CA00753F8E</string>
-				<string>C4BB16F218C665CA00753F8E</string>
-				<string>C4BB171018C665CA00753F8E</string>
-				<string>046CDFFBD7A748E584802259</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16EE18C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>C4BB16EF18C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB16EE18C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB16F018C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>C4BB16F118C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB16F018C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB16F218C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>C4BB16F318C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB16F218C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB16F418C665CA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C48007ED18C6945E0022E54F</string>
-				<string>C4BB172618C665E500753F8E</string>
-				<string>C4BB172718C665ED00753F8E</string>
-				<string>C4BB178B18C6934700753F8E</string>
-				<string>C4BB178A18C6934100753F8E</string>
-				<string>C4BB178C18C6935200753F8E</string>
-				<string>C4BB16F518C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Karaoke-Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16F518C665CA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB16F618C665CA00753F8E</string>
-				<string>C4BB16F718C665CA00753F8E</string>
-				<string>C4BB16FA18C665CA00753F8E</string>
-				<string>C4BB16FC18C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16F618C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Karaoke-Example-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16F718C665CA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB16F818C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16F818C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16F918C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB16F718C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB16FA18C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>main.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16FB18C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB16FA18C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB16FC18C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Karaoke-Example-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16FD18C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>KaraokeAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16FE18C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>KaraokeAppDelegate.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB16FF18C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB16FE18C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB170018C665CA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB170118C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB170118C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB170218C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB170018C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB170318C665CA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB170418C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB170418C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB170518C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB170318C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB170618C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>KaraokeViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB170718C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>KaraokeViewController.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB170818C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB170718C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB170B18C665CA00753F8E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C4BB171D18C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C4BB170C18C665CA00753F8E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C4BB171118C665CA00753F8E</string>
-				<string>C4BB171318C665CA00753F8E</string>
-				<string>C4BB171218C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C4BB170D18C665CA00753F8E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C4BB171B18C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C4BB170E18C665CA00753F8E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C4BB172318C665CA00753F8E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C4BB170B18C665CA00753F8E</string>
-				<string>C4BB170C18C665CA00753F8E</string>
-				<string>C4BB170D18C665CA00753F8E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C4BB171518C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Karaoke-ExampleTests</string>
-			<key>productName</key>
-			<string>Karaoke-ExampleTests</string>
-			<key>productReference</key>
-			<string>C4BB170F18C665CA00753F8E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>C4BB170F18C665CA00753F8E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Karaoke-ExampleTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C4BB171018C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>C4BB171118C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB171018C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB171218C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB16EE18C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB171318C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB16F218C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB171418C665CA00753F8E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C4BB16E318C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C4BB16EA18C665CA00753F8E</string>
-			<key>remoteInfo</key>
-			<string>Karaoke-Example</string>
-		</dict>
-		<key>C4BB171518C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>C4BB16EA18C665CA00753F8E</string>
-			<key>targetProxy</key>
-			<string>C4BB171418C665CA00753F8E</string>
-		</dict>
-		<key>C4BB171618C665CA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB171C18C665CA00753F8E</string>
-				<string>C4BB171718C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Karaoke-ExampleTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB171718C665CA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB171818C665CA00753F8E</string>
-				<string>C4BB171918C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB171818C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Karaoke-ExampleTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB171918C665CA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB171A18C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB171A18C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB171B18C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB171918C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB171C18C665CA00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Karaoke_ExampleTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB171D18C665CA00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB171C18C665CA00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB171E18C665CA00753F8E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C4BB171F18C665CA00753F8E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C4BB172018C665CA00753F8E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C4BB172118C665CA00753F8E</string>
-				<string>C4BB172218C665CA00753F8E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C4BB172118C665CA00753F8E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7BDE79B260FC4F7A80C86B50</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Karaoke-Example/Karaoke-Example-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Karaoke-Example/Karaoke-Example-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C4BB172218C665CA00753F8E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7BDE79B260FC4F7A80C86B50</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Karaoke-Example/Karaoke-Example-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Karaoke-Example/Karaoke-Example-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C4BB172318C665CA00753F8E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C4BB172418C665CA00753F8E</string>
-				<string>C4BB172518C665CA00753F8E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C4BB172418C665CA00753F8E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Karaoke-Example.app/Karaoke-Example</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Karaoke-Example/Karaoke-Example-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>Karaoke-ExampleTests/Karaoke-ExampleTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C4BB172518C665CA00753F8E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Karaoke-Example.app/Karaoke-Example</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Karaoke-Example/Karaoke-Example-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Karaoke-ExampleTests/Karaoke-ExampleTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C4BB172618C665E500753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C473CD7018C69AA700AC4D40</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>api</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB172718C665ED00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB172918C665FA00753F8E</string>
-				<string>C4BB172818C665F500753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>core</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB172818C665F500753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB172A18C6660300753F8E</string>
-				<string>C4BB172B18C6660300753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Globals</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB172918C665FA00753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB174D18C666B000753F8E</string>
-				<string>C4BB174E18C666B000753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Audio</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB172A18C6660300753F8E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>Globals.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB172B18C6660300753F8E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Globals.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB172C18C6660300753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB172A18C6660300753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB174718C6669A00753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AudioToolbox.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/AudioToolbox.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>C4BB174818C6669A00753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB174718C6669A00753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB174918C666A100753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>GLKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/GLKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>C4BB174A18C666A100753F8E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>OpenGLES.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/OpenGLES.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>C4BB174B18C666A100753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB174918C666A100753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB174C18C666A100753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB174A18C666A100753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB174D18C666B000753F8E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>Audio.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB174E18C666B000753F8E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Audio.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB174F18C666B000753F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BB174D18C666B000753F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4BB178A18C6934100753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB170018C665CA00753F8E</string>
-				<string>C4BB170318C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Storyboards</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB178B18C6934700753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB16FD18C665CA00753F8E</string>
-				<string>C4BB16FE18C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Delegates</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4BB178C18C6935200753F8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BB170618C665CA00753F8E</string>
-				<string>C4BB170718C665CA00753F8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Controllers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC4E0D2B18B1426D85B052B8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>C4BB16E318C665CA00753F8E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ECE8FF5D1C746A1A3B2BD68 /* libPods-Karaoke-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 046CDFFBD7A748E584802259 /* libPods-Karaoke-Example.a */; };
+		C473CD8218C69AA700AC4D40 /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7218C69AA700AC4D40 /* mo_audio.mm */; };
+		C473CD8318C69AA700AC4D40 /* mo_buffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7418C69AA700AC4D40 /* mo_buffer.mm */; };
+		C473CD8418C69AA700AC4D40 /* mo_fft.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7718C69AA700AC4D40 /* mo_fft.mm */; };
+		C473CD8518C69AA700AC4D40 /* mo_fun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7818C69AA700AC4D40 /* mo_fun.cpp */; };
+		C473CD8618C69AA700AC4D40 /* mo_gfx.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7B18C69AA700AC4D40 /* mo_gfx.mm */; };
+		C473CD8718C69AA700AC4D40 /* mo_glut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7C18C69AA700AC4D40 /* mo_glut.cpp */; };
+		C473CD8818C69AA700AC4D40 /* mo_thread.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD7F18C69AA700AC4D40 /* mo_thread.mm */; };
+		C473CD8918C69AA700AC4D40 /* mo_touch.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD8118C69AA700AC4D40 /* mo_touch.mm */; };
+		C473CD8B18C69EB000AC4D40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */; };
+		C48007EE18C6945E0022E54F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48007ED18C6945E0022E54F /* Images.xcassets */; };
+		C49FEB4818C9435F00F55D48 /* FileUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = C49FEB4718C9435F00F55D48 /* FileUploader.m */; };
+		C4BB16EF18C665CA00753F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16EE18C665CA00753F8E /* Foundation.framework */; };
+		C4BB16F118C665CA00753F8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16F018C665CA00753F8E /* CoreGraphics.framework */; };
+		C4BB16F318C665CA00753F8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16F218C665CA00753F8E /* UIKit.framework */; };
+		C4BB16F918C665CA00753F8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4BB16F718C665CA00753F8E /* InfoPlist.strings */; };
+		C4BB16FB18C665CA00753F8E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4BB16FA18C665CA00753F8E /* main.mm */; };
+		C4BB16FF18C665CA00753F8E /* KaraokeAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4BB16FE18C665CA00753F8E /* KaraokeAppDelegate.mm */; };
+		C4BB170218C665CA00753F8E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BB170018C665CA00753F8E /* Main_iPhone.storyboard */; };
+		C4BB170518C665CA00753F8E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BB170318C665CA00753F8E /* Main_iPad.storyboard */; };
+		C4BB170818C665CA00753F8E /* KaraokeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4BB170718C665CA00753F8E /* KaraokeViewController.mm */; };
+		C4BB171118C665CA00753F8E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB171018C665CA00753F8E /* XCTest.framework */; };
+		C4BB171218C665CA00753F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16EE18C665CA00753F8E /* Foundation.framework */; };
+		C4BB171318C665CA00753F8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16F218C665CA00753F8E /* UIKit.framework */; };
+		C4BB171B18C665CA00753F8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4BB171918C665CA00753F8E /* InfoPlist.strings */; };
+		C4BB171D18C665CA00753F8E /* Karaoke_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BB171C18C665CA00753F8E /* Karaoke_ExampleTests.m */; };
+		C4BB172C18C6660300753F8E /* Globals.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4BB172A18C6660300753F8E /* Globals.mm */; };
+		C4BB174818C6669A00753F8E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB174718C6669A00753F8E /* AudioToolbox.framework */; };
+		C4BB174B18C666A100753F8E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB174918C666A100753F8E /* GLKit.framework */; };
+		C4BB174C18C666A100753F8E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB174A18C666A100753F8E /* OpenGLES.framework */; };
+		C4BB174F18C666B000753F8E /* Audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4BB174D18C666B000753F8E /* Audio.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4BB171418C665CA00753F8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4BB16E318C665CA00753F8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4BB16EA18C665CA00753F8E;
+			remoteInfo = "Karaoke-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046CDFFBD7A748E584802259 /* libPods-Karaoke-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Karaoke-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDE79B260FC4F7A80C86B50 /* Pods-Karaoke-Example.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karaoke-Example.xcconfig"; path = "Pods/Pods-Karaoke-Example.xcconfig"; sourceTree = "<group>"; };
+		C473CD7118C69AA700AC4D40 /* mo_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_audio.h; sourceTree = "<group>"; };
+		C473CD7218C69AA700AC4D40 /* mo_audio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_audio.mm; sourceTree = "<group>"; };
+		C473CD7318C69AA700AC4D40 /* mo_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_buffer.h; sourceTree = "<group>"; };
+		C473CD7418C69AA700AC4D40 /* mo_buffer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_buffer.mm; sourceTree = "<group>"; };
+		C473CD7518C69AA700AC4D40 /* mo_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_def.h; sourceTree = "<group>"; };
+		C473CD7618C69AA700AC4D40 /* mo_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_fft.h; sourceTree = "<group>"; };
+		C473CD7718C69AA700AC4D40 /* mo_fft.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_fft.mm; sourceTree = "<group>"; };
+		C473CD7818C69AA700AC4D40 /* mo_fun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mo_fun.cpp; sourceTree = "<group>"; };
+		C473CD7918C69AA700AC4D40 /* mo_fun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_fun.h; sourceTree = "<group>"; };
+		C473CD7A18C69AA700AC4D40 /* mo_gfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_gfx.h; sourceTree = "<group>"; };
+		C473CD7B18C69AA700AC4D40 /* mo_gfx.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_gfx.mm; sourceTree = "<group>"; };
+		C473CD7C18C69AA700AC4D40 /* mo_glut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mo_glut.cpp; sourceTree = "<group>"; };
+		C473CD7D18C69AA700AC4D40 /* mo_glut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_glut.h; sourceTree = "<group>"; };
+		C473CD7E18C69AA700AC4D40 /* mo_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_thread.h; sourceTree = "<group>"; };
+		C473CD7F18C69AA700AC4D40 /* mo_thread.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_thread.mm; sourceTree = "<group>"; };
+		C473CD8018C69AA700AC4D40 /* mo_touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_touch.h; sourceTree = "<group>"; };
+		C473CD8118C69AA700AC4D40 /* mo_touch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_touch.mm; sourceTree = "<group>"; };
+		C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C48007ED18C6945E0022E54F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C49FEB4618C9435F00F55D48 /* FileUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUploader.h; sourceTree = "<group>"; };
+		C49FEB4718C9435F00F55D48 /* FileUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUploader.m; sourceTree = "<group>"; };
+		C4BB16EB18C665CA00753F8E /* Karaoke-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karaoke-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BB16EE18C665CA00753F8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4BB16F018C665CA00753F8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4BB16F218C665CA00753F8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4BB16F618C665CA00753F8E /* Karaoke-Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Karaoke-Example-Info.plist"; sourceTree = "<group>"; };
+		C4BB16F818C665CA00753F8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4BB16FA18C665CA00753F8E /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		C4BB16FC18C665CA00753F8E /* Karaoke-Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Karaoke-Example-Prefix.pch"; sourceTree = "<group>"; };
+		C4BB16FD18C665CA00753F8E /* KaraokeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaraokeAppDelegate.h; sourceTree = "<group>"; };
+		C4BB16FE18C665CA00753F8E /* KaraokeAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KaraokeAppDelegate.mm; sourceTree = "<group>"; };
+		C4BB170118C665CA00753F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C4BB170418C665CA00753F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C4BB170618C665CA00753F8E /* KaraokeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaraokeViewController.h; sourceTree = "<group>"; };
+		C4BB170718C665CA00753F8E /* KaraokeViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KaraokeViewController.mm; sourceTree = "<group>"; };
+		C4BB170F18C665CA00753F8E /* Karaoke-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karaoke-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BB171018C665CA00753F8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C4BB171818C665CA00753F8E /* Karaoke-ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Karaoke-ExampleTests-Info.plist"; sourceTree = "<group>"; };
+		C4BB171A18C665CA00753F8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4BB171C18C665CA00753F8E /* Karaoke_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Karaoke_ExampleTests.m; sourceTree = "<group>"; };
+		C4BB172A18C6660300753F8E /* Globals.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Globals.mm; sourceTree = "<group>"; };
+		C4BB172B18C6660300753F8E /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		C4BB174718C6669A00753F8E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C4BB174918C666A100753F8E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C4BB174A18C666A100753F8E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C4BB174D18C666B000753F8E /* Audio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Audio.mm; sourceTree = "<group>"; };
+		C4BB174E18C666B000753F8E /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4BB16E818C665CA00753F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C473CD8B18C69EB000AC4D40 /* CFNetwork.framework in Frameworks */,
+				C4BB174B18C666A100753F8E /* GLKit.framework in Frameworks */,
+				C4BB174C18C666A100753F8E /* OpenGLES.framework in Frameworks */,
+				C4BB174818C6669A00753F8E /* AudioToolbox.framework in Frameworks */,
+				C4BB16F118C665CA00753F8E /* CoreGraphics.framework in Frameworks */,
+				C4BB16F318C665CA00753F8E /* UIKit.framework in Frameworks */,
+				C4BB16EF18C665CA00753F8E /* Foundation.framework in Frameworks */,
+				2ECE8FF5D1C746A1A3B2BD68 /* libPods-Karaoke-Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BB170C18C665CA00753F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BB171118C665CA00753F8E /* XCTest.framework in Frameworks */,
+				C4BB171318C665CA00753F8E /* UIKit.framework in Frameworks */,
+				C4BB171218C665CA00753F8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C473CD7018C69AA700AC4D40 /* momu */ = {
+			isa = PBXGroup;
+			children = (
+				C473CD7118C69AA700AC4D40 /* mo_audio.h */,
+				C473CD7218C69AA700AC4D40 /* mo_audio.mm */,
+				C473CD7318C69AA700AC4D40 /* mo_buffer.h */,
+				C473CD7418C69AA700AC4D40 /* mo_buffer.mm */,
+				C473CD7518C69AA700AC4D40 /* mo_def.h */,
+				C473CD7618C69AA700AC4D40 /* mo_fft.h */,
+				C473CD7718C69AA700AC4D40 /* mo_fft.mm */,
+				C473CD7818C69AA700AC4D40 /* mo_fun.cpp */,
+				C473CD7918C69AA700AC4D40 /* mo_fun.h */,
+				C473CD7A18C69AA700AC4D40 /* mo_gfx.h */,
+				C473CD7B18C69AA700AC4D40 /* mo_gfx.mm */,
+				C473CD7C18C69AA700AC4D40 /* mo_glut.cpp */,
+				C473CD7D18C69AA700AC4D40 /* mo_glut.h */,
+				C473CD7E18C69AA700AC4D40 /* mo_thread.h */,
+				C473CD7F18C69AA700AC4D40 /* mo_thread.mm */,
+				C473CD8018C69AA700AC4D40 /* mo_touch.h */,
+				C473CD8118C69AA700AC4D40 /* mo_touch.mm */,
+			);
+			path = momu;
+			sourceTree = "<group>";
+		};
+		C49FEB4518C942D300F55D48 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C49FEB4618C9435F00F55D48 /* FileUploader.h */,
+				C49FEB4718C9435F00F55D48 /* FileUploader.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		C4BB16E218C665CA00753F8E = {
+			isa = PBXGroup;
+			children = (
+				C4BB16F418C665CA00753F8E /* Karaoke-Example */,
+				C4BB171618C665CA00753F8E /* Karaoke-ExampleTests */,
+				C4BB16ED18C665CA00753F8E /* Frameworks */,
+				C4BB16EC18C665CA00753F8E /* Products */,
+				7BDE79B260FC4F7A80C86B50 /* Pods-Karaoke-Example.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		C4BB16EC18C665CA00753F8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB16EB18C665CA00753F8E /* Karaoke-Example.app */,
+				C4BB170F18C665CA00753F8E /* Karaoke-ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4BB16ED18C665CA00753F8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */,
+				C4BB174918C666A100753F8E /* GLKit.framework */,
+				C4BB174A18C666A100753F8E /* OpenGLES.framework */,
+				C4BB174718C6669A00753F8E /* AudioToolbox.framework */,
+				C4BB16EE18C665CA00753F8E /* Foundation.framework */,
+				C4BB16F018C665CA00753F8E /* CoreGraphics.framework */,
+				C4BB16F218C665CA00753F8E /* UIKit.framework */,
+				C4BB171018C665CA00753F8E /* XCTest.framework */,
+				046CDFFBD7A748E584802259 /* libPods-Karaoke-Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4BB16F418C665CA00753F8E /* Karaoke-Example */ = {
+			isa = PBXGroup;
+			children = (
+				C48007ED18C6945E0022E54F /* Images.xcassets */,
+				C4BB172618C665E500753F8E /* api */,
+				C4BB172718C665ED00753F8E /* core */,
+				C4BB178B18C6934700753F8E /* Delegates */,
+				C4BB178A18C6934100753F8E /* Storyboards */,
+				C4BB178C18C6935200753F8E /* Controllers */,
+				C4BB16F518C665CA00753F8E /* Supporting Files */,
+			);
+			path = "Karaoke-Example";
+			sourceTree = "<group>";
+		};
+		C4BB16F518C665CA00753F8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB16F618C665CA00753F8E /* Karaoke-Example-Info.plist */,
+				C4BB16F718C665CA00753F8E /* InfoPlist.strings */,
+				C4BB16FA18C665CA00753F8E /* main.mm */,
+				C4BB16FC18C665CA00753F8E /* Karaoke-Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4BB171618C665CA00753F8E /* Karaoke-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB171C18C665CA00753F8E /* Karaoke_ExampleTests.m */,
+				C4BB171718C665CA00753F8E /* Supporting Files */,
+			);
+			path = "Karaoke-ExampleTests";
+			sourceTree = "<group>";
+		};
+		C4BB171718C665CA00753F8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB171818C665CA00753F8E /* Karaoke-ExampleTests-Info.plist */,
+				C4BB171918C665CA00753F8E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4BB172618C665E500753F8E /* api */ = {
+			isa = PBXGroup;
+			children = (
+				C473CD7018C69AA700AC4D40 /* momu */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		C4BB172718C665ED00753F8E /* core */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB172918C665FA00753F8E /* Audio */,
+				C4BB172818C665F500753F8E /* Globals */,
+				C49FEB4518C942D300F55D48 /* Networking */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		C4BB172818C665F500753F8E /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB172A18C6660300753F8E /* Globals.mm */,
+				C4BB172B18C6660300753F8E /* Globals.h */,
+			);
+			name = Globals;
+			sourceTree = "<group>";
+		};
+		C4BB172918C665FA00753F8E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB174D18C666B000753F8E /* Audio.mm */,
+				C4BB174E18C666B000753F8E /* Audio.h */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		C4BB178A18C6934100753F8E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB170018C665CA00753F8E /* Main_iPhone.storyboard */,
+				C4BB170318C665CA00753F8E /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C4BB178B18C6934700753F8E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB16FD18C665CA00753F8E /* KaraokeAppDelegate.h */,
+				C4BB16FE18C665CA00753F8E /* KaraokeAppDelegate.mm */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		C4BB178C18C6935200753F8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4BB170618C665CA00753F8E /* KaraokeViewController.h */,
+				C4BB170718C665CA00753F8E /* KaraokeViewController.mm */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4BB16EA18C665CA00753F8E /* Karaoke-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BB172018C665CA00753F8E /* Build configuration list for PBXNativeTarget "Karaoke-Example" */;
+			buildPhases = (
+				EC4E0D2B18B1426D85B052B8 /* Check Pods Manifest.lock */,
+				C4BB16E718C665CA00753F8E /* Sources */,
+				C4BB16E818C665CA00753F8E /* Frameworks */,
+				C4BB16E918C665CA00753F8E /* Resources */,
+				1FB2862E67464C3A83E12659 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karaoke-Example";
+			productName = "Karaoke-Example";
+			productReference = C4BB16EB18C665CA00753F8E /* Karaoke-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4BB170E18C665CA00753F8E /* Karaoke-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BB172318C665CA00753F8E /* Build configuration list for PBXNativeTarget "Karaoke-ExampleTests" */;
+			buildPhases = (
+				C4BB170B18C665CA00753F8E /* Sources */,
+				C4BB170C18C665CA00753F8E /* Frameworks */,
+				C4BB170D18C665CA00753F8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4BB171518C665CA00753F8E /* PBXTargetDependency */,
+			);
+			name = "Karaoke-ExampleTests";
+			productName = "Karaoke-ExampleTests";
+			productReference = C4BB170F18C665CA00753F8E /* Karaoke-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4BB16E318C665CA00753F8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Karaoke;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = thealphanerd;
+				TargetAttributes = {
+					C4BB16EA18C665CA00753F8E = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					C4BB170E18C665CA00753F8E = {
+						TestTargetID = C4BB16EA18C665CA00753F8E;
+					};
+				};
+			};
+			buildConfigurationList = C4BB16E618C665CA00753F8E /* Build configuration list for PBXProject "Karaoke-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4BB16E218C665CA00753F8E;
+			productRefGroup = C4BB16EC18C665CA00753F8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4BB16EA18C665CA00753F8E /* Karaoke-Example */,
+				C4BB170E18C665CA00753F8E /* Karaoke-ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4BB16E918C665CA00753F8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BB170518C665CA00753F8E /* Main_iPad.storyboard in Resources */,
+				C48007EE18C6945E0022E54F /* Images.xcassets in Resources */,
+				C4BB170218C665CA00753F8E /* Main_iPhone.storyboard in Resources */,
+				C4BB16F918C665CA00753F8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BB170D18C665CA00753F8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BB171B18C665CA00753F8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FB2862E67464C3A83E12659 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Karaoke-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC4E0D2B18B1426D85B052B8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4BB16E718C665CA00753F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C473CD8618C69AA700AC4D40 /* mo_gfx.mm in Sources */,
+				C49FEB4818C9435F00F55D48 /* FileUploader.m in Sources */,
+				C473CD8218C69AA700AC4D40 /* mo_audio.mm in Sources */,
+				C473CD8918C69AA700AC4D40 /* mo_touch.mm in Sources */,
+				C473CD8718C69AA700AC4D40 /* mo_glut.cpp in Sources */,
+				C4BB172C18C6660300753F8E /* Globals.mm in Sources */,
+				C473CD8518C69AA700AC4D40 /* mo_fun.cpp in Sources */,
+				C4BB170818C665CA00753F8E /* KaraokeViewController.mm in Sources */,
+				C473CD8318C69AA700AC4D40 /* mo_buffer.mm in Sources */,
+				C4BB16FB18C665CA00753F8E /* main.mm in Sources */,
+				C473CD8418C69AA700AC4D40 /* mo_fft.mm in Sources */,
+				C473CD8818C69AA700AC4D40 /* mo_thread.mm in Sources */,
+				C4BB174F18C666B000753F8E /* Audio.mm in Sources */,
+				C4BB16FF18C665CA00753F8E /* KaraokeAppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BB170B18C665CA00753F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BB171D18C665CA00753F8E /* Karaoke_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4BB171518C665CA00753F8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4BB16EA18C665CA00753F8E /* Karaoke-Example */;
+			targetProxy = C4BB171418C665CA00753F8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4BB16F718C665CA00753F8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BB16F818C665CA00753F8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4BB170018C665CA00753F8E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BB170118C665CA00753F8E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C4BB170318C665CA00753F8E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BB170418C665CA00753F8E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C4BB171918C665CA00753F8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BB171A18C665CA00753F8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4BB171E18C665CA00753F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4BB171F18C665CA00753F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4BB172118C665CA00753F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDE79B260FC4F7A80C86B50 /* Pods-Karaoke-Example.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karaoke-Example/Karaoke-Example-Prefix.pch";
+				INFOPLIST_FILE = "Karaoke-Example/Karaoke-Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4BB172218C665CA00753F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDE79B260FC4F7A80C86B50 /* Pods-Karaoke-Example.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karaoke-Example/Karaoke-Example-Prefix.pch";
+				INFOPLIST_FILE = "Karaoke-Example/Karaoke-Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C4BB172418C665CA00753F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Karaoke-Example.app/Karaoke-Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karaoke-Example/Karaoke-Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Karaoke-ExampleTests/Karaoke-ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C4BB172518C665CA00753F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Karaoke-Example.app/Karaoke-Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karaoke-Example/Karaoke-Example-Prefix.pch";
+				INFOPLIST_FILE = "Karaoke-ExampleTests/Karaoke-ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4BB16E618C665CA00753F8E /* Build configuration list for PBXProject "Karaoke-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BB171E18C665CA00753F8E /* Debug */,
+				C4BB171F18C665CA00753F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BB172018C665CA00753F8E /* Build configuration list for PBXNativeTarget "Karaoke-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BB172118C665CA00753F8E /* Debug */,
+				C4BB172218C665CA00753F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BB172318C665CA00753F8E /* Build configuration list for PBXNativeTarget "Karaoke-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BB172418C665CA00753F8E /* Debug */,
+				C4BB172518C665CA00753F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4BB16E318C665CA00753F8E /* Project object */;
+}
