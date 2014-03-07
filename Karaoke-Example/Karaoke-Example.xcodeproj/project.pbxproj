@@ -18,7 +18,7 @@
 		C473CD8918C69AA700AC4D40 /* mo_touch.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473CD8118C69AA700AC4D40 /* mo_touch.mm */; };
 		C473CD8B18C69EB000AC4D40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */; };
 		C48007EE18C6945E0022E54F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48007ED18C6945E0022E54F /* Images.xcassets */; };
-		C49FEB4818C9435F00F55D48 /* FileUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = C49FEB4718C9435F00F55D48 /* FileUploader.m */; };
+		C49FEB4818C9435F00F55D48 /* FileUploader.mm in Sources */ = {isa = PBXBuildFile; fileRef = C49FEB4718C9435F00F55D48 /* FileUploader.mm */; };
 		C4BB16EF18C665CA00753F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16EE18C665CA00753F8E /* Foundation.framework */; };
 		C4BB16F118C665CA00753F8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16F018C665CA00753F8E /* CoreGraphics.framework */; };
 		C4BB16F318C665CA00753F8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB16F218C665CA00753F8E /* UIKit.framework */; };
@@ -38,6 +38,7 @@
 		C4BB174B18C666A100753F8E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB174918C666A100753F8E /* GLKit.framework */; };
 		C4BB174C18C666A100753F8E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BB174A18C666A100753F8E /* OpenGLES.framework */; };
 		C4BB174F18C666B000753F8E /* Audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4BB174D18C666B000753F8E /* Audio.mm */; };
+		C4DCA61618C9524800367228 /* Encoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4DCA61518C9524800367228 /* Encoder.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +74,7 @@
 		C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		C48007ED18C6945E0022E54F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C49FEB4618C9435F00F55D48 /* FileUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUploader.h; sourceTree = "<group>"; };
-		C49FEB4718C9435F00F55D48 /* FileUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUploader.m; sourceTree = "<group>"; };
+		C49FEB4718C9435F00F55D48 /* FileUploader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FileUploader.mm; sourceTree = "<group>"; };
 		C4BB16EB18C665CA00753F8E /* Karaoke-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karaoke-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BB16EE18C665CA00753F8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C4BB16F018C665CA00753F8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,6 +101,8 @@
 		C4BB174A18C666A100753F8E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		C4BB174D18C666B000753F8E /* Audio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Audio.mm; sourceTree = "<group>"; };
 		C4BB174E18C666B000753F8E /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+		C4DCA61418C9524800367228 /* Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encoder.h; sourceTree = "<group>"; };
+		C4DCA61518C9524800367228 /* Encoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Encoder.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				C49FEB4618C9435F00F55D48 /* FileUploader.h */,
-				C49FEB4718C9435F00F55D48 /* FileUploader.m */,
+				C49FEB4718C9435F00F55D48 /* FileUploader.mm */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -273,6 +276,8 @@
 		C4BB172918C665FA00753F8E /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				C4DCA61418C9524800367228 /* Encoder.h */,
+				C4DCA61518C9524800367228 /* Encoder.mm */,
 				C4BB174D18C666B000753F8E /* Audio.mm */,
 				C4BB174E18C666B000753F8E /* Audio.h */,
 			);
@@ -448,7 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C473CD8618C69AA700AC4D40 /* mo_gfx.mm in Sources */,
-				C49FEB4818C9435F00F55D48 /* FileUploader.m in Sources */,
+				C49FEB4818C9435F00F55D48 /* FileUploader.mm in Sources */,
 				C473CD8218C69AA700AC4D40 /* mo_audio.mm in Sources */,
 				C473CD8918C69AA700AC4D40 /* mo_touch.mm in Sources */,
 				C473CD8718C69AA700AC4D40 /* mo_glut.cpp in Sources */,
@@ -456,6 +461,7 @@
 				C473CD8518C69AA700AC4D40 /* mo_fun.cpp in Sources */,
 				C4BB170818C665CA00753F8E /* KaraokeViewController.mm in Sources */,
 				C473CD8318C69AA700AC4D40 /* mo_buffer.mm in Sources */,
+				C4DCA61618C9524800367228 /* Encoder.mm in Sources */,
 				C4BB16FB18C665CA00753F8E /* main.mm in Sources */,
 				C473CD8418C69AA700AC4D40 /* mo_fft.mm in Sources */,
 				C473CD8818C69AA700AC4D40 /* mo_thread.mm in Sources */,
