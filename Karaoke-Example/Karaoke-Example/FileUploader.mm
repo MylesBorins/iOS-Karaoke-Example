@@ -7,6 +7,7 @@
 //
 
 #import "FileUploader.h"
+#import "Globals.h"
 
 @implementation FileUploader
 
