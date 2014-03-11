@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2ECE8FF5D1C746A1A3B2BD68 /* libPods-Karaoke-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 046CDFFBD7A748E584802259 /* libPods-Karaoke-Example.a */; };
+		C40361B518CEA352001259D9 /* y-waveform.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AE318CE5833006436E5 /* y-waveform.mm */; };
 		C473CD8B18C69EB000AC4D40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */; };
 		C48007EE18C6945E0022E54F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48007ED18C6945E0022E54F /* Images.xcassets */; };
 		C49FEB4818C9435F00F55D48 /* FileUploader.mm in Sources */ = {isa = PBXBuildFile; fileRef = C49FEB4718C9435F00F55D48 /* FileUploader.mm */; };
@@ -16,7 +17,6 @@
 		C4AE0AE618CE5833006436E5 /* y-echo.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AD818CE5833006436E5 /* y-echo.mm */; };
 		C4AE0AE718CE5833006436E5 /* y-entity.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0ADA18CE5833006436E5 /* y-entity.mm */; };
 		C4AE0AE818CE5833006436E5 /* y-fft.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0ADC18CE5833006436E5 /* y-fft.mm */; };
-		C4AE0AEA18CE5833006436E5 /* y-particle.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AE018CE5833006436E5 /* y-particle.mm */; };
 		C4AE0AEB18CE5833006436E5 /* y-score-reader.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AE218CE5833006436E5 /* y-score-reader.mm */; };
 		C4AE0AEF18CE591A006436E5 /* SceneGraph.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AED18CE591A006436E5 /* SceneGraph.mm */; };
 		C4AE0AF218CE5949006436E5 /* Simulation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AF018CE5949006436E5 /* Simulation.mm */; };
@@ -70,89 +70,6 @@
 		C4AE0C0D18CE599F006436E5 /* tommiddr.raw in Resources */ = {isa = PBXBuildFile; fileRef = C4AE0B8518CE599F006436E5 /* tommiddr.raw */; };
 		C4AE0C0E18CE599F006436E5 /* twopeaks.raw in Resources */ = {isa = PBXBuildFile; fileRef = C4AE0B8618CE599F006436E5 /* twopeaks.raw */; };
 		C4AE0C0F18CE599F006436E5 /* README in Resources */ = {isa = PBXBuildFile; fileRef = C4AE0B8718CE599F006436E5 /* README */; };
-		C4AE0C1018CE599F006436E5 /* ADSR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B8918CE599F006436E5 /* ADSR.cpp */; };
-		C4AE0C1118CE599F006436E5 /* Asymp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B8A18CE599F006436E5 /* Asymp.cpp */; };
-		C4AE0C1218CE599F006436E5 /* BandedWG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B8B18CE599F006436E5 /* BandedWG.cpp */; };
-		C4AE0C1318CE599F006436E5 /* BeeThree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B8C18CE599F006436E5 /* BeeThree.cpp */; };
-		C4AE0C1418CE599F006436E5 /* BiQuad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B8D18CE599F006436E5 /* BiQuad.cpp */; };
-		C4AE0C1518CE599F006436E5 /* Blit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B8E18CE599F006436E5 /* Blit.cpp */; };
-		C4AE0C1618CE599F006436E5 /* BlitSaw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B8F18CE599F006436E5 /* BlitSaw.cpp */; };
-		C4AE0C1718CE599F006436E5 /* BlitSquare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9018CE599F006436E5 /* BlitSquare.cpp */; };
-		C4AE0C1818CE599F006436E5 /* BlowBotl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9118CE599F006436E5 /* BlowBotl.cpp */; };
-		C4AE0C1918CE599F006436E5 /* BlowHole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9218CE599F006436E5 /* BlowHole.cpp */; };
-		C4AE0C1A18CE599F006436E5 /* Bowed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9318CE599F006436E5 /* Bowed.cpp */; };
-		C4AE0C1B18CE599F006436E5 /* Brass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9418CE599F006436E5 /* Brass.cpp */; };
-		C4AE0C1C18CE599F006436E5 /* Chorus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9518CE599F006436E5 /* Chorus.cpp */; };
-		C4AE0C1D18CE599F006436E5 /* Clarinet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9618CE599F006436E5 /* Clarinet.cpp */; };
-		C4AE0C1E18CE599F006436E5 /* Delay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9718CE599F006436E5 /* Delay.cpp */; };
-		C4AE0C1F18CE599F006436E5 /* DelayA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9818CE599F006436E5 /* DelayA.cpp */; };
-		C4AE0C2018CE599F006436E5 /* DelayL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9918CE599F006436E5 /* DelayL.cpp */; };
-		C4AE0C2118CE599F006436E5 /* Drummer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9A18CE599F006436E5 /* Drummer.cpp */; };
-		C4AE0C2218CE599F006436E5 /* Echo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9B18CE599F006436E5 /* Echo.cpp */; };
-		C4AE0C2318CE599F006436E5 /* Envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9C18CE599F006436E5 /* Envelope.cpp */; };
-		C4AE0C2418CE599F006436E5 /* FileLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9D18CE599F006436E5 /* FileLoop.cpp */; };
-		C4AE0C2518CE599F006436E5 /* FileRead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9E18CE599F006436E5 /* FileRead.cpp */; };
-		C4AE0C2618CE599F006436E5 /* FileWrite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9F18CE599F006436E5 /* FileWrite.cpp */; };
-		C4AE0C2718CE599F006436E5 /* FileWvIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BA018CE599F006436E5 /* FileWvIn.cpp */; };
-		C4AE0C2818CE599F006436E5 /* FileWvOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BA118CE599F006436E5 /* FileWvOut.cpp */; };
-		C4AE0C2918CE599F006436E5 /* Fir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BA218CE599F006436E5 /* Fir.cpp */; };
-		C4AE0C2A18CE599F006436E5 /* Flute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BA318CE599F006436E5 /* Flute.cpp */; };
-		C4AE0C2B18CE599F006436E5 /* FM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BA418CE599F006436E5 /* FM.cpp */; };
-		C4AE0C2C18CE599F006436E5 /* FMVoices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BA518CE599F006436E5 /* FMVoices.cpp */; };
-		C4AE0C2D18CE599F006436E5 /* FormSwep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BA618CE599F006436E5 /* FormSwep.cpp */; };
-		C4AE0C2E18CE599F006436E5 /* Granulate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BA718CE599F006436E5 /* Granulate.cpp */; };
-		C4AE0C2F18CE599F006436E5 /* HevyMetl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BA818CE599F006436E5 /* HevyMetl.cpp */; };
-		C4AE0C3018CE599F006436E5 /* Iir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BA918CE599F006436E5 /* Iir.cpp */; };
-		C4AE0C3118CE599F006436E5 /* InetWvIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BAA18CE599F006436E5 /* InetWvIn.cpp */; };
-		C4AE0C3218CE599F006436E5 /* InetWvOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BAB18CE599F006436E5 /* InetWvOut.cpp */; };
-		C4AE0C3318CE599F006436E5 /* JCRev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BAC18CE599F006436E5 /* JCRev.cpp */; };
-		C4AE0C3418CE599F006436E5 /* LentPitShift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BAD18CE599F006436E5 /* LentPitShift.cpp */; };
-		C4AE0C3518CE599F006436E5 /* Mandolin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BAE18CE599F006436E5 /* Mandolin.cpp */; };
-		C4AE0C3618CE599F006436E5 /* Mesh2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BAF18CE599F006436E5 /* Mesh2D.cpp */; };
-		C4AE0C3718CE599F006436E5 /* Messager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB018CE599F006436E5 /* Messager.cpp */; };
-		C4AE0C3818CE599F006436E5 /* MidiFileIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB118CE599F006436E5 /* MidiFileIn.cpp */; };
-		C4AE0C3918CE599F006436E5 /* Modal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB218CE599F006436E5 /* Modal.cpp */; };
-		C4AE0C3A18CE599F006436E5 /* ModalBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB318CE599F006436E5 /* ModalBar.cpp */; };
-		C4AE0C3B18CE599F006436E5 /* Modulate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB418CE599F006436E5 /* Modulate.cpp */; };
-		C4AE0C3C18CE599F006436E5 /* Moog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB518CE599F006436E5 /* Moog.cpp */; };
-		C4AE0C3D18CE599F006436E5 /* Mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB618CE599F006436E5 /* Mutex.cpp */; };
-		C4AE0C3E18CE599F006436E5 /* Noise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB718CE599F006436E5 /* Noise.cpp */; };
-		C4AE0C3F18CE599F006436E5 /* NRev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB818CE599F006436E5 /* NRev.cpp */; };
-		C4AE0C4018CE599F006436E5 /* OnePole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB918CE599F006436E5 /* OnePole.cpp */; };
-		C4AE0C4118CE599F006436E5 /* OneZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BBA18CE599F006436E5 /* OneZero.cpp */; };
-		C4AE0C4218CE599F006436E5 /* PercFlut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BBB18CE599F006436E5 /* PercFlut.cpp */; };
-		C4AE0C4318CE599F006436E5 /* Phonemes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BBC18CE599F006436E5 /* Phonemes.cpp */; };
-		C4AE0C4418CE599F006436E5 /* PitShift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BBD18CE599F006436E5 /* PitShift.cpp */; };
-		C4AE0C4518CE599F006436E5 /* Plucked.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BBE18CE599F006436E5 /* Plucked.cpp */; };
-		C4AE0C4618CE599F006436E5 /* PluckTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BBF18CE599F006436E5 /* PluckTwo.cpp */; };
-		C4AE0C4718CE599F006436E5 /* PoleZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BC018CE599F006436E5 /* PoleZero.cpp */; };
-		C4AE0C4818CE599F006436E5 /* PRCRev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BC118CE599F006436E5 /* PRCRev.cpp */; };
-		C4AE0C4918CE599F006436E5 /* Resonate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BC218CE599F006436E5 /* Resonate.cpp */; };
-		C4AE0C4A18CE599F006436E5 /* Rhodey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BC318CE599F006436E5 /* Rhodey.cpp */; };
-		C4AE0C4B18CE599F006436E5 /* Sampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BC418CE599F006436E5 /* Sampler.cpp */; };
-		C4AE0C4C18CE599F006436E5 /* Saxofony.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BC518CE599F006436E5 /* Saxofony.cpp */; };
-		C4AE0C4D18CE599F006436E5 /* Shakers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BC618CE599F006436E5 /* Shakers.cpp */; };
-		C4AE0C4E18CE599F006436E5 /* Simple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BC718CE599F006436E5 /* Simple.cpp */; };
-		C4AE0C4F18CE599F006436E5 /* SineWave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BC818CE599F006436E5 /* SineWave.cpp */; };
-		C4AE0C5018CE599F006436E5 /* SingWave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BC918CE599F006436E5 /* SingWave.cpp */; };
-		C4AE0C5118CE599F006436E5 /* Sitar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BCA18CE599F006436E5 /* Sitar.cpp */; };
-		C4AE0C5218CE599F006436E5 /* Skini.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BCB18CE599F006436E5 /* Skini.cpp */; };
-		C4AE0C5318CE599F006436E5 /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BCC18CE599F006436E5 /* Socket.cpp */; };
-		C4AE0C5418CE599F006436E5 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BCD18CE599F006436E5 /* Sphere.cpp */; };
-		C4AE0C5518CE599F006436E5 /* StifKarp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BCE18CE599F006436E5 /* StifKarp.cpp */; };
-		C4AE0C5618CE599F006436E5 /* Stk.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BCF18CE599F006436E5 /* Stk.mm */; };
-		C4AE0C5718CE599F006436E5 /* StkUdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BD018CE599F006436E5 /* StkUdpSocket.cpp */; };
-		C4AE0C5818CE599F006436E5 /* TapDelay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BD118CE599F006436E5 /* TapDelay.cpp */; };
-		C4AE0C5918CE599F006436E5 /* TcpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BD218CE599F006436E5 /* TcpClient.cpp */; };
-		C4AE0C5A18CE599F006436E5 /* TcpServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BD318CE599F006436E5 /* TcpServer.cpp */; };
-		C4AE0C5B18CE599F006436E5 /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BD418CE599F006436E5 /* Thread.cpp */; };
-		C4AE0C5C18CE599F006436E5 /* TubeBell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BD518CE599F006436E5 /* TubeBell.cpp */; };
-		C4AE0C5D18CE599F006436E5 /* TwoPole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BD618CE599F006436E5 /* TwoPole.cpp */; };
-		C4AE0C5E18CE599F006436E5 /* TwoZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BD718CE599F006436E5 /* TwoZero.cpp */; };
-		C4AE0C5F18CE599F006436E5 /* Voicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BD818CE599F006436E5 /* Voicer.cpp */; };
-		C4AE0C6018CE599F006436E5 /* VoicForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BD918CE599F006436E5 /* VoicForm.cpp */; };
-		C4AE0C6118CE599F006436E5 /* Whistle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BDA18CE599F006436E5 /* Whistle.cpp */; };
-		C4AE0C6218CE599F006436E5 /* Wurley.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BDB18CE599F006436E5 /* Wurley.cpp */; };
 		C4AE0C6318CE599F006436E5 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = C4AE0BDC18CE599F006436E5 /* TODO */; };
 		C4AE0C6418CE599F006436E5 /* VERSIONS in Resources */ = {isa = PBXBuildFile; fileRef = C4AE0BDD18CE599F006436E5 /* VERSIONS */; };
 		C4AE0C7718CE5E99006436E5 /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0C6718CE5E99006436E5 /* mo_audio.mm */; };
@@ -216,7 +133,7 @@
 		C4AE0AE018CE5833006436E5 /* y-particle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "y-particle.mm"; sourceTree = "<group>"; };
 		C4AE0AE118CE5833006436E5 /* y-score-reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "y-score-reader.h"; sourceTree = "<group>"; };
 		C4AE0AE218CE5833006436E5 /* y-score-reader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "y-score-reader.mm"; sourceTree = "<group>"; };
-		C4AE0AE318CE5833006436E5 /* y-waveform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "y-waveform.cpp"; sourceTree = "<group>"; };
+		C4AE0AE318CE5833006436E5 /* y-waveform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "y-waveform.mm"; sourceTree = "<group>"; };
 		C4AE0AE418CE5833006436E5 /* y-waveform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "y-waveform.h"; sourceTree = "<group>"; };
 		C4AE0AED18CE591A006436E5 /* SceneGraph.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SceneGraph.mm; sourceTree = "<group>"; };
 		C4AE0AEE18CE591A006436E5 /* SceneGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneGraph.h; sourceTree = "<group>"; };
@@ -566,7 +483,7 @@
 				C4AE0AE018CE5833006436E5 /* y-particle.mm */,
 				C4AE0AE118CE5833006436E5 /* y-score-reader.h */,
 				C4AE0AE218CE5833006436E5 /* y-score-reader.mm */,
-				C4AE0AE318CE5833006436E5 /* y-waveform.cpp */,
+				C4AE0AE318CE5833006436E5 /* y-waveform.mm */,
 				C4AE0AE418CE5833006436E5 /* y-waveform.h */,
 			);
 			path = "y-api";
@@ -1052,7 +969,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Karaoke;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = thealphanerd;
 				TargetAttributes = {
 					C4BB16EA18C665CA00753F8E = {
@@ -1194,117 +1111,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4AE0C3818CE599F006436E5 /* MidiFileIn.cpp in Sources */,
-				C4AE0C4E18CE599F006436E5 /* Simple.cpp in Sources */,
-				C4AE0C3018CE599F006436E5 /* Iir.cpp in Sources */,
-				C4AE0C5F18CE599F006436E5 /* Voicer.cpp in Sources */,
-				C4AE0C2B18CE599F006436E5 /* FM.cpp in Sources */,
-				C4AE0C1518CE599F006436E5 /* Blit.cpp in Sources */,
-				C4AE0C2E18CE599F006436E5 /* Granulate.cpp in Sources */,
-				C4AE0C5D18CE599F006436E5 /* TwoPole.cpp in Sources */,
-				C4AE0C3718CE599F006436E5 /* Messager.cpp in Sources */,
-				C4AE0C1918CE599F006436E5 /* BlowHole.cpp in Sources */,
 				C4AE0BF018CE599F006436E5 /* makemidi.c in Sources */,
-				C4AE0C1B18CE599F006436E5 /* Brass.cpp in Sources */,
-				C4AE0C3C18CE599F006436E5 /* Moog.cpp in Sources */,
-				C4AE0C5A18CE599F006436E5 /* TcpServer.cpp in Sources */,
 				C4AE0BF118CE599F006436E5 /* makewavs.c in Sources */,
-				C4AE0C5918CE599F006436E5 /* TcpClient.cpp in Sources */,
-				C4AE0C1E18CE599F006436E5 /* Delay.cpp in Sources */,
-				C4AE0C3E18CE599F006436E5 /* Noise.cpp in Sources */,
-				C4AE0C2C18CE599F006436E5 /* FMVoices.cpp in Sources */,
-				C4AE0C4118CE599F006436E5 /* OneZero.cpp in Sources */,
-				C4AE0C1618CE599F006436E5 /* BlitSaw.cpp in Sources */,
-				C4AE0C4718CE599F006436E5 /* PoleZero.cpp in Sources */,
-				C4AE0C2118CE599F006436E5 /* Drummer.cpp in Sources */,
 				C4AE0AEB18CE5833006436E5 /* y-score-reader.mm in Sources */,
 				C4AE0C7D18CE5E99006436E5 /* mo_thread.mm in Sources */,
-				C4AE0C5E18CE599F006436E5 /* TwoZero.cpp in Sources */,
-				C4AE0C1F18CE599F006436E5 /* DelayA.cpp in Sources */,
-				C4AE0C1118CE599F006436E5 /* Asymp.cpp in Sources */,
-				C4AE0C3618CE599F006436E5 /* Mesh2D.cpp in Sources */,
-				C4AE0C5C18CE599F006436E5 /* TubeBell.cpp in Sources */,
 				C49FEB4818C9435F00F55D48 /* FileUploader.mm in Sources */,
-				C4AE0C3118CE599F006436E5 /* InetWvIn.cpp in Sources */,
-				C4AE0C3218CE599F006436E5 /* InetWvOut.cpp in Sources */,
-				C4AE0C5118CE599F006436E5 /* Sitar.cpp in Sources */,
-				C4AE0C3418CE599F006436E5 /* LentPitShift.cpp in Sources */,
-				C4AE0C6218CE599F006436E5 /* Wurley.cpp in Sources */,
-				C4AE0C4818CE599F006436E5 /* PRCRev.cpp in Sources */,
 				C4AE0AD318CE57E1006436E5 /* Renderer.mm in Sources */,
 				C4AE0AE718CE5833006436E5 /* y-entity.mm in Sources */,
 				C4AE0AE818CE5833006436E5 /* y-fft.mm in Sources */,
-				C4AE0C1018CE599F006436E5 /* ADSR.cpp in Sources */,
-				C4AE0C4F18CE599F006436E5 /* SineWave.cpp in Sources */,
-				C4AE0C2418CE599F006436E5 /* FileLoop.cpp in Sources */,
-				C4AE0C3B18CE599F006436E5 /* Modulate.cpp in Sources */,
-				C4AE0C4318CE599F006436E5 /* Phonemes.cpp in Sources */,
 				C4BB172C18C6660300753F8E /* Globals.mm in Sources */,
-				C4AE0C1718CE599F006436E5 /* BlitSquare.cpp in Sources */,
 				C4AE0AE518CE5833006436E5 /* y-charting.mm in Sources */,
 				C4AE0C7E18CE5E99006436E5 /* mo_touch.mm in Sources */,
-				C4AE0AEA18CE5833006436E5 /* y-particle.mm in Sources */,
-				C4AE0C1418CE599F006436E5 /* BiQuad.cpp in Sources */,
-				C4AE0C2A18CE599F006436E5 /* Flute.cpp in Sources */,
-				C4AE0C4A18CE599F006436E5 /* Rhodey.cpp in Sources */,
-				C4AE0C4418CE599F006436E5 /* PitShift.cpp in Sources */,
-				C4AE0C2018CE599F006436E5 /* DelayL.cpp in Sources */,
-				C4AE0C2818CE599F006436E5 /* FileWvOut.cpp in Sources */,
-				C4AE0C1C18CE599F006436E5 /* Chorus.cpp in Sources */,
-				C4AE0C3318CE599F006436E5 /* JCRev.cpp in Sources */,
+				C40361B518CEA352001259D9 /* y-waveform.mm in Sources */,
 				C4AE0C7818CE5E99006436E5 /* mo_buffer.mm in Sources */,
-				C4AE0C1318CE599F006436E5 /* BeeThree.cpp in Sources */,
-				C4AE0C3F18CE599F006436E5 /* NRev.cpp in Sources */,
-				C4AE0C2918CE599F006436E5 /* Fir.cpp in Sources */,
-				C4AE0C4618CE599F006436E5 /* PluckTwo.cpp in Sources */,
-				C4AE0C1218CE599F006436E5 /* BandedWG.cpp in Sources */,
-				C4AE0C3D18CE599F006436E5 /* Mutex.cpp in Sources */,
-				C4AE0C5018CE599F006436E5 /* SingWave.cpp in Sources */,
-				C4AE0C2518CE599F006436E5 /* FileRead.cpp in Sources */,
-				C4AE0C5318CE599F006436E5 /* Socket.cpp in Sources */,
 				C4AE0C7C18CE5E99006436E5 /* mo_glut.cpp in Sources */,
-				C4AE0C6018CE599F006436E5 /* VoicForm.cpp in Sources */,
-				C4AE0C4518CE599F006436E5 /* Plucked.cpp in Sources */,
 				C4BB170818C665CA00753F8E /* KaraokeViewController.mm in Sources */,
 				C4AE0C7918CE5E99006436E5 /* mo_fft.mm in Sources */,
-				C4AE0C3A18CE599F006436E5 /* ModalBar.cpp in Sources */,
-				C4AE0C3518CE599F006436E5 /* Mandolin.cpp in Sources */,
 				C4DCA61618C9524800367228 /* Encoder.mm in Sources */,
-				C4AE0C4018CE599F006436E5 /* OnePole.cpp in Sources */,
 				C4AE0C0518CE599F006436E5 /* sine.c in Sources */,
-				C4AE0C5418CE599F006436E5 /* Sphere.cpp in Sources */,
-				C4AE0C5618CE599F006436E5 /* Stk.mm in Sources */,
 				C4AE0C7F18CE5FD5006436E5 /* mo_gfx.mm in Sources */,
-				C4AE0C4B18CE599F006436E5 /* Sampler.cpp in Sources */,
 				C4AE0C7A18CE5E99006436E5 /* mo_fun.cpp in Sources */,
 				C4AE0AF218CE5949006436E5 /* Simulation.mm in Sources */,
 				C4AE0C7718CE5E99006436E5 /* mo_audio.mm in Sources */,
-				C4AE0C1818CE599F006436E5 /* BlowBotl.cpp in Sources */,
 				C4BB16FB18C665CA00753F8E /* main.mm in Sources */,
-				C4AE0C1A18CE599F006436E5 /* Bowed.cpp in Sources */,
 				C4AE0AE618CE5833006436E5 /* y-echo.mm in Sources */,
-				C4AE0C5518CE599F006436E5 /* StifKarp.cpp in Sources */,
-				C4AE0C5718CE599F006436E5 /* StkUdpSocket.cpp in Sources */,
-				C4AE0C2218CE599F006436E5 /* Echo.cpp in Sources */,
-				C4AE0C6118CE599F006436E5 /* Whistle.cpp in Sources */,
-				C4AE0C2F18CE599F006436E5 /* HevyMetl.cpp in Sources */,
-				C4AE0C4D18CE599F006436E5 /* Shakers.cpp in Sources */,
-				C4AE0C5B18CE599F006436E5 /* Thread.cpp in Sources */,
-				C4AE0C2318CE599F006436E5 /* Envelope.cpp in Sources */,
-				C4AE0C2618CE599F006436E5 /* FileWrite.cpp in Sources */,
-				C4AE0C3918CE599F006436E5 /* Modal.cpp in Sources */,
-				C4AE0C4918CE599F006436E5 /* Resonate.cpp in Sources */,
-				C4AE0C2D18CE599F006436E5 /* FormSwep.cpp in Sources */,
 				C4AE0AEF18CE591A006436E5 /* SceneGraph.mm in Sources */,
 				C4AE0BEF18CE599F006436E5 /* makefunc.c in Sources */,
-				C4AE0C4C18CE599F006436E5 /* Saxofony.cpp in Sources */,
-				C4AE0C5218CE599F006436E5 /* Skini.cpp in Sources */,
 				C4BB174F18C666B000753F8E /* Audio.mm in Sources */,
-				C4AE0C5818CE599F006436E5 /* TapDelay.cpp in Sources */,
-				C4AE0C2718CE599F006436E5 /* FileWvIn.cpp in Sources */,
 				C4BB16FF18C665CA00753F8E /* KaraokeAppDelegate.mm in Sources */,
-				C4AE0C4218CE599F006436E5 /* PercFlut.cpp in Sources */,
-				C4AE0C1D18CE599F006436E5 /* Clarinet.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1366,7 +1200,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1406,7 +1239,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1467,7 +1299,6 @@
 		C4BB172418C665CA00753F8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Karaoke-Example.app/Karaoke-Example";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -1490,7 +1321,6 @@
 		C4BB172518C665CA00753F8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Karaoke-Example.app/Karaoke-Example";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
