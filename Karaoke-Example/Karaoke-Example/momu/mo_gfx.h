@@ -58,9 +58,6 @@
 #include <string.h>
 #include <sys/time.h>
 #include <OpenGLES/ES1/gl.h>
-#include <CoreFoundation/CoreFoundation.h>
-
-
 
 
 //-----------------------------------------------------------------------------

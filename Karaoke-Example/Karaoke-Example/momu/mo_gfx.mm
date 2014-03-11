@@ -55,6 +55,7 @@
 #include <OpenGLES/ES1/glext.h>
 
 
+
 // vector static
 GLfloat Vector3D::nowhere = 0.0f;
 GLfloat Vector3D::zero = 0.0;
