@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2ECE8FF5D1C746A1A3B2BD68 /* libPods-Karaoke-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 046CDFFBD7A748E584802259 /* libPods-Karaoke-Example.a */; };
 		C40361B518CEA352001259D9 /* y-waveform.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AE318CE5833006436E5 /* y-waveform.mm */; };
+		C44C4C4D18CEBBAA00DBDAF1 /* KaraokeWave.mm in Sources */ = {isa = PBXBuildFile; fileRef = C44C4C4B18CEBBAA00DBDAF1 /* KaraokeWave.mm */; };
+		C44C4C4E18CEDFB800DBDAF1 /* MidiFileIn.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB118CE599F006436E5 /* MidiFileIn.mm */; };
+		C44C4C4F18CEDFD100DBDAF1 /* Stk.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BCF18CE599F006436E5 /* Stk.mm */; };
+		C44C4C5018CEDFF000DBDAF1 /* DelayL.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9918CE599F006436E5 /* DelayL.mm */; };
 		C473CD8B18C69EB000AC4D40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */; };
 		C48007EE18C6945E0022E54F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48007ED18C6945E0022E54F /* Images.xcassets */; };
 		C49FEB4818C9435F00F55D48 /* FileUploader.mm in Sources */ = {isa = PBXBuildFile; fileRef = C49FEB4718C9435F00F55D48 /* FileUploader.mm */; };
@@ -16,7 +20,6 @@
 		C4AE0AE518CE5833006436E5 /* y-charting.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AD618CE5833006436E5 /* y-charting.mm */; };
 		C4AE0AE618CE5833006436E5 /* y-echo.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AD818CE5833006436E5 /* y-echo.mm */; };
 		C4AE0AE718CE5833006436E5 /* y-entity.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0ADA18CE5833006436E5 /* y-entity.mm */; };
-		C4AE0AE818CE5833006436E5 /* y-fft.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0ADC18CE5833006436E5 /* y-fft.mm */; };
 		C4AE0AEB18CE5833006436E5 /* y-score-reader.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AE218CE5833006436E5 /* y-score-reader.mm */; };
 		C4AE0AEF18CE591A006436E5 /* SceneGraph.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AED18CE591A006436E5 /* SceneGraph.mm */; };
 		C4AE0AF218CE5949006436E5 /* Simulation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0AF018CE5949006436E5 /* Simulation.mm */; };
@@ -75,8 +78,8 @@
 		C4AE0C7718CE5E99006436E5 /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0C6718CE5E99006436E5 /* mo_audio.mm */; };
 		C4AE0C7818CE5E99006436E5 /* mo_buffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0C6918CE5E99006436E5 /* mo_buffer.mm */; };
 		C4AE0C7918CE5E99006436E5 /* mo_fft.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0C6C18CE5E99006436E5 /* mo_fft.mm */; };
-		C4AE0C7A18CE5E99006436E5 /* mo_fun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0C6D18CE5E99006436E5 /* mo_fun.cpp */; };
-		C4AE0C7C18CE5E99006436E5 /* mo_glut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0C7118CE5E99006436E5 /* mo_glut.cpp */; };
+		C4AE0C7A18CE5E99006436E5 /* mo_fun.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0C6D18CE5E99006436E5 /* mo_fun.mm */; };
+		C4AE0C7C18CE5E99006436E5 /* mo_glut.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0C7118CE5E99006436E5 /* mo_glut.mm */; };
 		C4AE0C7D18CE5E99006436E5 /* mo_thread.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0C7418CE5E99006436E5 /* mo_thread.mm */; };
 		C4AE0C7E18CE5E99006436E5 /* mo_touch.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0C7618CE5E99006436E5 /* mo_touch.mm */; };
 		C4AE0C7F18CE5FD5006436E5 /* mo_gfx.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0C7018CE5E99006436E5 /* mo_gfx.mm */; };
@@ -115,6 +118,8 @@
 /* Begin PBXFileReference section */
 		046CDFFBD7A748E584802259 /* libPods-Karaoke-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Karaoke-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDE79B260FC4F7A80C86B50 /* Pods-Karaoke-Example.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karaoke-Example.xcconfig"; path = "Pods/Pods-Karaoke-Example.xcconfig"; sourceTree = "<group>"; };
+		C44C4C4B18CEBBAA00DBDAF1 /* KaraokeWave.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KaraokeWave.mm; sourceTree = "<group>"; };
+		C44C4C4C18CEBBAA00DBDAF1 /* KaraokeWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaraokeWave.h; sourceTree = "<group>"; };
 		C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		C48007ED18C6945E0022E54F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C49FEB4618C9435F00F55D48 /* FileUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUploader.h; sourceTree = "<group>"; };
@@ -301,7 +306,7 @@
 		C4AE0B9618CE599F006436E5 /* Clarinet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Clarinet.cpp; sourceTree = "<group>"; };
 		C4AE0B9718CE599F006436E5 /* Delay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Delay.cpp; sourceTree = "<group>"; };
 		C4AE0B9818CE599F006436E5 /* DelayA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DelayA.cpp; sourceTree = "<group>"; };
-		C4AE0B9918CE599F006436E5 /* DelayL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DelayL.cpp; sourceTree = "<group>"; };
+		C4AE0B9918CE599F006436E5 /* DelayL.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DelayL.mm; sourceTree = "<group>"; };
 		C4AE0B9A18CE599F006436E5 /* Drummer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Drummer.cpp; sourceTree = "<group>"; };
 		C4AE0B9B18CE599F006436E5 /* Echo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Echo.cpp; sourceTree = "<group>"; };
 		C4AE0B9C18CE599F006436E5 /* Envelope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Envelope.cpp; sourceTree = "<group>"; };
@@ -325,7 +330,7 @@
 		C4AE0BAE18CE599F006436E5 /* Mandolin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mandolin.cpp; sourceTree = "<group>"; };
 		C4AE0BAF18CE599F006436E5 /* Mesh2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh2D.cpp; sourceTree = "<group>"; };
 		C4AE0BB018CE599F006436E5 /* Messager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Messager.cpp; sourceTree = "<group>"; };
-		C4AE0BB118CE599F006436E5 /* MidiFileIn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiFileIn.cpp; sourceTree = "<group>"; };
+		C4AE0BB118CE599F006436E5 /* MidiFileIn.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MidiFileIn.mm; sourceTree = "<group>"; };
 		C4AE0BB218CE599F006436E5 /* Modal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Modal.cpp; sourceTree = "<group>"; };
 		C4AE0BB318CE599F006436E5 /* ModalBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModalBar.cpp; sourceTree = "<group>"; };
 		C4AE0BB418CE599F006436E5 /* Modulate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Modulate.cpp; sourceTree = "<group>"; };
@@ -377,11 +382,11 @@
 		C4AE0C6A18CE5E99006436E5 /* mo_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_def.h; sourceTree = "<group>"; };
 		C4AE0C6B18CE5E99006436E5 /* mo_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_fft.h; sourceTree = "<group>"; };
 		C4AE0C6C18CE5E99006436E5 /* mo_fft.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_fft.mm; sourceTree = "<group>"; };
-		C4AE0C6D18CE5E99006436E5 /* mo_fun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mo_fun.cpp; sourceTree = "<group>"; };
+		C4AE0C6D18CE5E99006436E5 /* mo_fun.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_fun.mm; sourceTree = "<group>"; };
 		C4AE0C6E18CE5E99006436E5 /* mo_fun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_fun.h; sourceTree = "<group>"; };
 		C4AE0C6F18CE5E99006436E5 /* mo_gfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_gfx.h; sourceTree = "<group>"; };
 		C4AE0C7018CE5E99006436E5 /* mo_gfx.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_gfx.mm; sourceTree = "<group>"; };
-		C4AE0C7118CE5E99006436E5 /* mo_glut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mo_glut.cpp; sourceTree = "<group>"; };
+		C4AE0C7118CE5E99006436E5 /* mo_glut.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_glut.mm; sourceTree = "<group>"; };
 		C4AE0C7218CE5E99006436E5 /* mo_glut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_glut.h; sourceTree = "<group>"; };
 		C4AE0C7318CE5E99006436E5 /* mo_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_thread.h; sourceTree = "<group>"; };
 		C4AE0C7418CE5E99006436E5 /* mo_thread.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_thread.mm; sourceTree = "<group>"; };
@@ -446,6 +451,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C44C4C4718CEBB6700DBDAF1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C44C4C4B18CEBBAA00DBDAF1 /* KaraokeWave.mm */,
+				C44C4C4C18CEBBAA00DBDAF1 /* KaraokeWave.h */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
 		C49FEB4518C942D300F55D48 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,6 +472,7 @@
 		C4AE0AD018CE57CD006436E5 /* GFX */ = {
 			isa = PBXGroup;
 			children = (
+				C44C4C4718CEBB6700DBDAF1 /* Entities */,
 				C4AE0AD118CE57E1006436E5 /* Renderer.mm */,
 				C4AE0AD218CE57E1006436E5 /* Renderer.h */,
 				C4AE0AED18CE591A006436E5 /* SceneGraph.mm */,
@@ -680,7 +695,7 @@
 				C4AE0B9618CE599F006436E5 /* Clarinet.cpp */,
 				C4AE0B9718CE599F006436E5 /* Delay.cpp */,
 				C4AE0B9818CE599F006436E5 /* DelayA.cpp */,
-				C4AE0B9918CE599F006436E5 /* DelayL.cpp */,
+				C4AE0B9918CE599F006436E5 /* DelayL.mm */,
 				C4AE0B9A18CE599F006436E5 /* Drummer.cpp */,
 				C4AE0B9B18CE599F006436E5 /* Echo.cpp */,
 				C4AE0B9C18CE599F006436E5 /* Envelope.cpp */,
@@ -704,7 +719,7 @@
 				C4AE0BAE18CE599F006436E5 /* Mandolin.cpp */,
 				C4AE0BAF18CE599F006436E5 /* Mesh2D.cpp */,
 				C4AE0BB018CE599F006436E5 /* Messager.cpp */,
-				C4AE0BB118CE599F006436E5 /* MidiFileIn.cpp */,
+				C4AE0BB118CE599F006436E5 /* MidiFileIn.mm */,
 				C4AE0BB218CE599F006436E5 /* Modal.cpp */,
 				C4AE0BB318CE599F006436E5 /* ModalBar.cpp */,
 				C4AE0BB418CE599F006436E5 /* Modulate.cpp */,
@@ -761,11 +776,11 @@
 				C4AE0C6A18CE5E99006436E5 /* mo_def.h */,
 				C4AE0C6B18CE5E99006436E5 /* mo_fft.h */,
 				C4AE0C6C18CE5E99006436E5 /* mo_fft.mm */,
-				C4AE0C6D18CE5E99006436E5 /* mo_fun.cpp */,
+				C4AE0C6D18CE5E99006436E5 /* mo_fun.mm */,
 				C4AE0C6E18CE5E99006436E5 /* mo_fun.h */,
 				C4AE0C6F18CE5E99006436E5 /* mo_gfx.h */,
 				C4AE0C7018CE5E99006436E5 /* mo_gfx.mm */,
-				C4AE0C7118CE5E99006436E5 /* mo_glut.cpp */,
+				C4AE0C7118CE5E99006436E5 /* mo_glut.mm */,
 				C4AE0C7218CE5E99006436E5 /* mo_glut.h */,
 				C4AE0C7318CE5E99006436E5 /* mo_thread.h */,
 				C4AE0C7418CE5E99006436E5 /* mo_thread.mm */,
@@ -1112,27 +1127,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4AE0BF018CE599F006436E5 /* makemidi.c in Sources */,
+				C44C4C4E18CEDFB800DBDAF1 /* MidiFileIn.mm in Sources */,
 				C4AE0BF118CE599F006436E5 /* makewavs.c in Sources */,
 				C4AE0AEB18CE5833006436E5 /* y-score-reader.mm in Sources */,
 				C4AE0C7D18CE5E99006436E5 /* mo_thread.mm in Sources */,
 				C49FEB4818C9435F00F55D48 /* FileUploader.mm in Sources */,
 				C4AE0AD318CE57E1006436E5 /* Renderer.mm in Sources */,
 				C4AE0AE718CE5833006436E5 /* y-entity.mm in Sources */,
-				C4AE0AE818CE5833006436E5 /* y-fft.mm in Sources */,
 				C4BB172C18C6660300753F8E /* Globals.mm in Sources */,
 				C4AE0AE518CE5833006436E5 /* y-charting.mm in Sources */,
 				C4AE0C7E18CE5E99006436E5 /* mo_touch.mm in Sources */,
+				C44C4C5018CEDFF000DBDAF1 /* DelayL.mm in Sources */,
 				C40361B518CEA352001259D9 /* y-waveform.mm in Sources */,
 				C4AE0C7818CE5E99006436E5 /* mo_buffer.mm in Sources */,
-				C4AE0C7C18CE5E99006436E5 /* mo_glut.cpp in Sources */,
+				C4AE0C7C18CE5E99006436E5 /* mo_glut.mm in Sources */,
 				C4BB170818C665CA00753F8E /* KaraokeViewController.mm in Sources */,
 				C4AE0C7918CE5E99006436E5 /* mo_fft.mm in Sources */,
 				C4DCA61618C9524800367228 /* Encoder.mm in Sources */,
+				C44C4C4F18CEDFD100DBDAF1 /* Stk.mm in Sources */,
 				C4AE0C0518CE599F006436E5 /* sine.c in Sources */,
 				C4AE0C7F18CE5FD5006436E5 /* mo_gfx.mm in Sources */,
-				C4AE0C7A18CE5E99006436E5 /* mo_fun.cpp in Sources */,
+				C4AE0C7A18CE5E99006436E5 /* mo_fun.mm in Sources */,
 				C4AE0AF218CE5949006436E5 /* Simulation.mm in Sources */,
 				C4AE0C7718CE5E99006436E5 /* mo_audio.mm in Sources */,
+				C44C4C4D18CEBBAA00DBDAF1 /* KaraokeWave.mm in Sources */,
 				C4BB16FB18C665CA00753F8E /* main.mm in Sources */,
 				C4AE0AE618CE5833006436E5 /* y-echo.mm in Sources */,
 				C4AE0AEF18CE591A006436E5 /* SceneGraph.mm in Sources */,
