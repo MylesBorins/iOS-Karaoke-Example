@@ -13,6 +13,13 @@
 		C44C4C4E18CEDFB800DBDAF1 /* MidiFileIn.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BB118CE599F006436E5 /* MidiFileIn.mm */; };
 		C44C4C4F18CEDFD100DBDAF1 /* Stk.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BCF18CE599F006436E5 /* Stk.mm */; };
 		C44C4C5018CEDFF000DBDAF1 /* DelayL.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9918CE599F006436E5 /* DelayL.mm */; };
+		C44C4C6218CFB81200DBDAF1 /* thing_called_love.kar in Resources */ = {isa = PBXBuildFile; fileRef = C44C4C6118CFB81200DBDAF1 /* thing_called_love.kar */; };
+		C44C4C6318CFBE5700DBDAF1 /* Mandolin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BAE18CE599F006436E5 /* Mandolin.cpp */; };
+		C44C4C6418CFBE6A00DBDAF1 /* PluckTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BBF18CE599F006436E5 /* PluckTwo.cpp */; };
+		C44C4C6518CFBE7400DBDAF1 /* DelayA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9818CE599F006436E5 /* DelayA.cpp */; };
+		C44C4C6618CFBE8000DBDAF1 /* FileWvIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BA018CE599F006436E5 /* FileWvIn.cpp */; };
+		C44C4C6718CFBE8500DBDAF1 /* OneZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0BBA18CE599F006436E5 /* OneZero.cpp */; };
+		C44C4C6818CFBE9100DBDAF1 /* FileRead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AE0B9E18CE599F006436E5 /* FileRead.cpp */; };
 		C473CD8B18C69EB000AC4D40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */; };
 		C48007EE18C6945E0022E54F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48007ED18C6945E0022E54F /* Images.xcassets */; };
 		C49FEB4818C9435F00F55D48 /* FileUploader.mm in Sources */ = {isa = PBXBuildFile; fileRef = C49FEB4718C9435F00F55D48 /* FileUploader.mm */; };
@@ -120,6 +127,7 @@
 		7BDE79B260FC4F7A80C86B50 /* Pods-Karaoke-Example.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karaoke-Example.xcconfig"; path = "Pods/Pods-Karaoke-Example.xcconfig"; sourceTree = "<group>"; };
 		C44C4C4B18CEBBAA00DBDAF1 /* KaraokeWave.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KaraokeWave.mm; sourceTree = "<group>"; };
 		C44C4C4C18CEBBAA00DBDAF1 /* KaraokeWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaraokeWave.h; sourceTree = "<group>"; };
+		C44C4C6118CFB81200DBDAF1 /* thing_called_love.kar */ = {isa = PBXFileReference; lastKnownFileType = file; path = thing_called_love.kar; sourceTree = "<group>"; };
 		C473CD8A18C69EB000AC4D40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		C48007ED18C6945E0022E54F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C49FEB4618C9435F00F55D48 /* FileUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUploader.h; sourceTree = "<group>"; };
@@ -458,6 +466,13 @@
 				C44C4C4C18CEBBAA00DBDAF1 /* KaraokeWave.h */,
 			);
 			name = Entities;
+			sourceTree = "<group>";
+		};
+		C44C4C5718CFA00100DBDAF1 /* MidiFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MidiFiles;
 			sourceTree = "<group>";
 		};
 		C49FEB4518C942D300F55D48 /* Networking */ = {
@@ -829,6 +844,7 @@
 		C4BB16F418C665CA00753F8E /* Karaoke-Example */ = {
 			isa = PBXGroup;
 			children = (
+				C44C4C6118CFB81200DBDAF1 /* thing_called_love.kar */,
 				C48007ED18C6945E0022E54F /* Images.xcassets */,
 				C4BB172618C665E500753F8E /* api */,
 				C4BB172718C665ED00753F8E /* core */,
@@ -836,6 +852,7 @@
 				C4BB178A18C6934100753F8E /* Storyboards */,
 				C4BB178C18C6935200753F8E /* Controllers */,
 				C4BB16F518C665CA00753F8E /* Supporting Files */,
+				C44C4C5718CFA00100DBDAF1 /* MidiFiles */,
 			);
 			path = "Karaoke-Example";
 			sourceTree = "<group>";
@@ -1047,6 +1064,7 @@
 				C4AE0BE718CE599F006436E5 /* dope.raw in Resources */,
 				C4AE0C0F18CE599F006436E5 /* README in Resources */,
 				C4AE0BDE18CE599F006436E5 /* AUTHORS in Resources */,
+				C44C4C6218CFB81200DBDAF1 /* thing_called_love.kar in Resources */,
 				C4AE0BFD18CE599F006436E5 /* mand9.raw in Resources */,
 				C4AE0BFA18CE599F006436E5 /* mand6.raw in Resources */,
 				C4AE0C0218CE599F006436E5 /* ppksblnk.raw in Resources */,
@@ -1128,11 +1146,14 @@
 			files = (
 				C4AE0BF018CE599F006436E5 /* makemidi.c in Sources */,
 				C44C4C4E18CEDFB800DBDAF1 /* MidiFileIn.mm in Sources */,
+				C44C4C6418CFBE6A00DBDAF1 /* PluckTwo.cpp in Sources */,
 				C4AE0BF118CE599F006436E5 /* makewavs.c in Sources */,
 				C4AE0AEB18CE5833006436E5 /* y-score-reader.mm in Sources */,
 				C4AE0C7D18CE5E99006436E5 /* mo_thread.mm in Sources */,
 				C49FEB4818C9435F00F55D48 /* FileUploader.mm in Sources */,
+				C44C4C6518CFBE7400DBDAF1 /* DelayA.cpp in Sources */,
 				C4AE0AD318CE57E1006436E5 /* Renderer.mm in Sources */,
+				C44C4C6818CFBE9100DBDAF1 /* FileRead.cpp in Sources */,
 				C4AE0AE718CE5833006436E5 /* y-entity.mm in Sources */,
 				C4BB172C18C6660300753F8E /* Globals.mm in Sources */,
 				C4AE0AE518CE5833006436E5 /* y-charting.mm in Sources */,
@@ -1141,9 +1162,12 @@
 				C40361B518CEA352001259D9 /* y-waveform.mm in Sources */,
 				C4AE0C7818CE5E99006436E5 /* mo_buffer.mm in Sources */,
 				C4AE0C7C18CE5E99006436E5 /* mo_glut.mm in Sources */,
+				C44C4C6318CFBE5700DBDAF1 /* Mandolin.cpp in Sources */,
 				C4BB170818C665CA00753F8E /* KaraokeViewController.mm in Sources */,
 				C4AE0C7918CE5E99006436E5 /* mo_fft.mm in Sources */,
 				C4DCA61618C9524800367228 /* Encoder.mm in Sources */,
+				C44C4C6618CFBE8000DBDAF1 /* FileWvIn.cpp in Sources */,
+				C44C4C6718CFBE8500DBDAF1 /* OneZero.cpp in Sources */,
 				C44C4C4F18CEDFD100DBDAF1 /* Stk.mm in Sources */,
 				C4AE0C0518CE599F006436E5 /* sine.c in Sources */,
 				C4AE0C7F18CE5FD5006436E5 /* mo_gfx.mm in Sources */,
