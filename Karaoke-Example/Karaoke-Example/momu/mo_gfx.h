@@ -389,6 +389,20 @@ public:
     static void clearStaticTimeStep();
 };
 
+//-----------------------------------------------------------------------------
+// name: struct XPoint2D
+// desc: ...
+//-----------------------------------------------------------------------------
+struct XPoint2D
+{
+    GLfloat x;
+    GLfloat y;
+    
+    // constructor
+    XPoint2D( GLfloat _x = 0, GLfloat _y = 0 ) { x = _x; y = _y; }
+    // copy
+    XPoint2D( const XPoint2D & rhs ) { x = rhs.x; y = rhs.y; }
+};
 
 
 
