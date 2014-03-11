@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GLKit/GLKit.h>
 
-@interface KaraokeViewController : UIViewController
+@interface KaraokeViewController : GLKViewController
 
 @end
