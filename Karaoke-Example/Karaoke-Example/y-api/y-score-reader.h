@@ -119,7 +119,7 @@ public:
     ~YScoreReader();
 
 public:
-    bool load( const char * filename, float velScale = 0.0f );
+    bool load( std::string filename, float velScale = 0.0f );
     void cleanup();
 
 public:

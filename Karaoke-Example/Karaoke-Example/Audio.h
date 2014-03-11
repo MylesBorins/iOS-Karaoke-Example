@@ -12,7 +12,10 @@
 #include <iostream>
 #include "Globals.h"
 #import "mo_audio.h"
-
+#import "y-score-reader.h"
+#import <vector>
+#import "Mandolin.h"
+#import "mo_fun.h"
 class Audio
 {
 public:
@@ -20,6 +23,9 @@ public:
     static bool init( );
     // start audio
     static bool start();
+public:
+    static YScoreReader * _scoreReader;
+    static stk::Mandolin ** _mandolins;
 };
 
 #endif /* defined(__Karaoke_Example__Audio__) */

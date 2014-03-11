@@ -193,7 +193,7 @@ void YScoreReader::cleanup()
 // name: load()
 // desc: load a MIDI file
 //-----------------------------------------------------------------------------
-bool YScoreReader::load( const char * path, float velScale )
+bool YScoreReader::load( std::string path, float velScale )
 {
     // sanity check
     if( m_midiFile ) cleanup();
@@ -698,7 +698,6 @@ bool YScoreReader::loadTrack( long track, std::vector<NoteEvent *> & data, std::
                 // shuttle[1]: message type
                 // shuttle[2]: number of bytes in custom data part
                 // shuttle[3]: start of custom data part
-                
                 switch( shuttle[1] )
                 {
                     case 1: // text

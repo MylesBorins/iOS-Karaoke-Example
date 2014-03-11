@@ -136,7 +136,9 @@ MidiFileIn :: MidiFileIn( std::string fileName )
         tempoEvent.count = count;
         value = ( event[3] << 16 ) + ( event[4] << 8 ) + event[5];
         tempoEvent.tickSeconds = (double) (0.000001 * value / tickrate);
-        if ( count > tempoEvents_.back().count )
+        //ge : set bpm
+          bpm_ = 60000000.0 / value;
+          if ( count > tempoEvents_.back().count )
           tempoEvents_.push_back( tempoEvent );
         else
           tempoEvents_.back() = tempoEvent;

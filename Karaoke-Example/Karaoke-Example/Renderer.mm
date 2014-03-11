@@ -37,7 +37,8 @@ void KaraokeInitGraph()
     // instantiate simulation
     Globals::graph = new SceneGraph();
     YEntity * root = &Globals::graph->root();
-    KaraokeWave * wave = new KaraokeWave();
+    
+    KaraokeWave *  wave = new KaraokeWave();
     wave->active = true;
     wave->col.setAll(0);
     wave->setWidth(1);
