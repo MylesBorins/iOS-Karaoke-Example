@@ -20,8 +20,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *PlayButton;
 @property (weak, nonatomic) IBOutlet UIButton *UploadButton;
 
-
-
 @property (weak, nonatomic) FileUploader *uploader;
 
 - (void)setupGL;
@@ -66,6 +64,8 @@
 - (void)viewDidLayoutSubviews
 {
     KaraokeSetDims( self.view.bounds.size.width, self.view.bounds.size.height );
+//    Globals::waveform->setWidth(self.view.bounds.size.width);
+//    Globals::waveform->setHeight(self.view.bounds.size.height / 5);
 }
 
 - (void)dealloc

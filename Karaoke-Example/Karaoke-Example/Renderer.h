@@ -16,6 +16,7 @@
 #import "Globals.h"
 #import <vector>
 #import "Simulation.h"
+#import "KaraokeWave.h"
 
 // initialize the engine (audio, grx, interaction)
 void KaraokeInit();

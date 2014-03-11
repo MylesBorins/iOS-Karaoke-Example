@@ -37,6 +37,12 @@ void KaraokeInitGraph()
     // instantiate simulation
     Globals::graph = new SceneGraph();
     YEntity * root = &Globals::graph->root();
+    KaraokeWave * wave = new KaraokeWave();
+    wave->active = true;
+    wave->col.setAll(0);
+    wave->setWidth(1);
+    wave->setHeight(0.5);
+    root->addChild(wave);
 }
 
 // set graphics dimensions
@@ -45,8 +51,6 @@ void KaraokeSetDims( GLfloat width, GLfloat height )
     NSLog( @"set dims: %f %f", width, height );
     Globals::gfxWidth = width;
     Globals::gfxHeight = height;
-    
-    Globals::waveformWidth = width / height * 1.9;
 }
 
 // draw next frame of graphics
@@ -75,7 +79,6 @@ void KaraokeRender()
     
     // push
     glPushMatrix();
-    
     // cascade simulation
     Globals::graph->systemCascade();
     

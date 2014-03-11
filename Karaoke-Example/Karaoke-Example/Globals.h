@@ -20,7 +20,7 @@ using namespace std;
 #define FRAMESIZE 1024
 #define NUM_CHANNELS 2
 #define NUM_ENTITIES 200
-#define MAX_RECORD_LENGTH 1440000
+#define MAX_RECORD_LENGTH 1440000 / 2
 
 class Globals
 {

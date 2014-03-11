@@ -17,8 +17,11 @@ void audio_callback( Float32 * buffer, UInt32 numFrames, void * userData )
 {
     SAMPLE realBufferSize = numFrames * 2 * sizeof(Float32);
     if (Globals::recording && Globals::recordingLength + numFrames * 2 < MAX_RECORD_LENGTH) {
-        memcpy(Globals::recordingBuffer + Globals::recordingLength, buffer, realBufferSize);
-        Globals::recordingLength += realBufferSize;
+        for (int i = 0; i < numFrames; i ++)
+        {
+            Globals::recordingBuffer[i + Globals::recordingLength] = buffer[i * 2];
+        }
+        Globals::recordingLength += numFrames;
     }
     else if (Globals::recording)
     {
@@ -30,12 +33,16 @@ void audio_callback( Float32 * buffer, UInt32 numFrames, void * userData )
         });
     }
     
+    
     // zero!!!
     memset( buffer, 0, realBufferSize);
     
     if (Globals::playing && Globals::playHead < Globals::recordingLength) {
-        memcpy(buffer, Globals::recordingBuffer + Globals::playHead, realBufferSize);
-        Globals::playHead += realBufferSize;
+        for (int i = 0; i < numFrames; i++)
+        {
+            buffer[i * 2] = buffer[i*2 +1] = Globals::recordingBuffer[i + Globals::playHead];
+        }
+        Globals::playHead += numFrames;
     }
     else if (Globals::playing)
     {
