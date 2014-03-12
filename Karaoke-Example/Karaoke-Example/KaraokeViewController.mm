@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *RecordButton;
 @property (weak, nonatomic) IBOutlet UIButton *PlayButton;
 @property (weak, nonatomic) IBOutlet UIButton *UploadButton;
+@property (weak, nonatomic) IBOutlet UILabel *lyricLabel;
 
 @property (weak, nonatomic) FileUploader *uploader;
 
@@ -26,6 +27,7 @@
 - (void)tearDownGL;
 
 - (void) togglePlayLabel;
+
 @end
 
 @implementation KaraokeViewController
@@ -57,6 +59,16 @@
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(toggleRecord:)
                                                  name:@"ToggleRecord"
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(toggleRecord:)
+                                                 name:@"ToggleRecord"
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(updateLyrics:)
+                                                 name:@"NewLyrics"
                                                object:nil];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -181,6 +193,12 @@
         Globals::playing = false;
         [self.PlayButton setTitle:@"Play" forState:UIControlStateNormal];
     }
+}
+
+-(void) updateLyrics:(NSNotification *) notification
+{
+    NSString * newLyrics = [notification object];
+    self.lyricLabel.text = newLyrics;
 }
 
 @end

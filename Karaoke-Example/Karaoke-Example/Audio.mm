@@ -16,8 +16,55 @@
 YScoreReader * Audio::_scoreReader = nullptr;
 stk::Mandolin ** Audio::_mandolins = new stk::Mandolin*[5];
 
+int deltaCount = 0;
+NSString * lastLyrics = @"";
 void audio_callback( Float32 * buffer, UInt32 numFrames, void * userData )
 {
+    if(deltaCount > numFrames * 10)
+    {
+        deltaCount = 0;
+    }
+    
+    if (deltaCount == 0)
+    {
+        NSString * lyrics = @"";
+        
+        std::vector<LyricEvent *> lyricEvents = Audio::_scoreReader->getLyricEvents(2);
+        for (std::vector<LyricEvent *>::iterator it = lyricEvents.begin();
+             it != lyricEvents.end(); it++)
+        {
+            float samprate = SAMPRATE;
+            LyricEvent * le = (LyricEvent *)(*it);
+            if (le->time > Globals::clock / samprate)
+            {
+                int count = 0;
+                while (true)
+                {
+                    lyrics = [lyrics stringByAppendingString: [NSString stringWithCString:le->lyric.c_str() encoding:[NSString defaultCStringEncoding]] ];
+                    it++;
+                    le = (LyricEvent *)(*it);
+                    count ++;
+                    if (count >= 5)
+                    {
+                        break;
+                    }
+                }
+                break;
+                
+            }
+        }
+        
+        if (![lastLyrics isEqualToString:lyrics])
+        {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [[NSNotificationCenter defaultCenter]
+                 postNotificationName:@"NewLyrics"
+                 object:lyrics];
+            });
+            lastLyrics = lyrics;
+        }
+    }
+    
     SAMPLE realBufferSize = numFrames * 2 * sizeof(Float32);
     if (Globals::recording && Globals::recordingLength + numFrames * 2 < MAX_RECORD_LENGTH) {
         for (int i = 0; i < numFrames; i ++)
@@ -82,6 +129,7 @@ void audio_callback( Float32 * buffer, UInt32 numFrames, void * userData )
         });
     }
     Globals::clock += numFrames;
+    deltaCount += numFrames;
 }
 
 bool Audio::init()
@@ -108,10 +156,6 @@ bool Audio::init()
     const char *path = [midiFilePath UTF8String];
     _scoreReader->load(path);
     Globals::tempo = _scoreReader->getBPM();
-    std::vector<LyricEvent *> lyricEvents = _scoreReader->getLyricEvents(2);
-    std::cerr << lyricEvents[0]->lyric << std::endl;
-    std::cerr << lyricEvents[0]->time << std::endl;
-    std::cerr << lyricEvents[0]->endTime << std::endl;
     
     return true;
 }

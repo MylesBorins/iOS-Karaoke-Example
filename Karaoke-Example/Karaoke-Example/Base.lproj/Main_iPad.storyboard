@@ -54,6 +54,13 @@
                                     <action selector="PlayPressed:" destination="mlc-AJ-Ie6" eventType="touchUpInside" id="NBg-Vp-ucm"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lyrics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pOn-G5-oPr">
+                                <rect key="frame" x="20" y="881" width="728" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <connections>
                             <outlet property="delegate" destination="mlc-AJ-Ie6" id="Vt5-cC-7rB"/>
@@ -67,6 +74,7 @@
                         <outlet property="PlayButton" destination="gtd-Oo-K3b" id="4HA-WT-X8V"/>
                         <outlet property="RecordButton" destination="cVv-SD-Mhi" id="rRA-Jh-wDc"/>
                         <outlet property="UploadButton" destination="2C0-Es-w7u" id="KPZ-nH-RJj"/>
+                        <outlet property="lyricLabel" destination="pOn-G5-oPr" id="CCB-HS-TFF"/>
                     </connections>
                 </glkViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cEy-mU-Mst" userLabel="First Responder" sceneMemberID="firstResponder"/>
